@@ -10,22 +10,22 @@
                 <div class="navbar-collapse" id="navbar-menu-sm" style="margin-top:25px;">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="#quem-somos">SOBRE NÓS</a>
-                        </li>
+                            <a class="nav-link scroll-link" href="index.php#quem-somos">SOBRE NÓS</a>
+                        </li> 
                         
                         <li class="nav-item dropdown dropdown-hover">
                             <a class="nav-link dropdown-toggle" href="servicos.html" id="menu-servicos-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 SERVIÇOS
                             </a>
                             <div class="dropdown-menu" aria-labelledby="menu-servicos-sm">
-                            <a class="dropdown-item" href="servicos.html#estrategia">ESTRATÉGIA E INOVAÇÃO</a>
-                            <a class="dropdown-item" href="servicos.html#sustentabilidade">SUSTENTABILIDADE</a>
-                            <a class="dropdown-item" href="servicos.html#tecnologia">TECNOLOGIA</a>
+                            <a class="dropdown-item" href="servicos.php#estrategia">ESTRATÉGIA E INOVAÇÃO</a>
+                            <a class="dropdown-item" href="servicos.php#sustentabilidade">SUSTENTABILIDADE</a>
+                            <a class="dropdown-item" href="servicos.php#tecnologia">TECNOLOGIA</a>
                             </div>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="#contato">CONTACTO </a>
+                            <a class="nav-link scroll-link" href="index.php#contato">CONTACTO </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" style="color:#F96205;">
@@ -57,7 +57,7 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="#quem-somos">SOBRE NÓS</a>
+                            <a class="nav-link scroll-link" href="index.php#quem-somos">SOBRE NÓS</a>
                         </li>
                         
                         <li class="nav-item dropdown dropdown-hover">
@@ -65,14 +65,14 @@
                                 SERVIÇOS
                             </a>
                             <div class="dropdown-menu" aria-labelledby="menu-servicos">
-                              <a class="dropdown-item" href="servicos.html#estrategia">ESTRATÉGIA E INOVAÇÃO</a>
-                              <a class="dropdown-item" href="servicos.html#sustentabilidade">SUSTENTABILIDADE</a>
-                              <a class="dropdown-item" href="servicos.html#tecnologia">TECNOLOGIA</a>
+                              <a class="dropdown-item" href="servicos.php#estrategia">ESTRATÉGIA E INOVAÇÃO</a>
+                              <a class="dropdown-item" href="servicos.php#sustentabilidade">SUSTENTABILIDADE</a>
+                              <a class="dropdown-item" href="servicos.php#tecnologia">TECNOLOGIA</a>
                             </div>
                           </li>
 
                          <li class="nav-item">
-                            <a class="nav-link scroll-link" href="#contato">CONTACTO </a>
+                            <a class="nav-link scroll-link" href="index.php#contato">CONTACTO </a>
                         </li>
                          <li class="nav-item">
                             <a class="nav-link" href="#" style="color:#F96205;">
