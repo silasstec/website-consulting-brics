@@ -38,14 +38,3 @@ var typewriter = new Typewriter(app, {
 });
 
 
-var is_scroll = false;
-$(window).scroll(function() {
-    var hT = $('#comentario-elenice').offset().top,
-        hH = $('#comentario-elenice').outerHeight(),
-        wH = $(window).height(),
-        wS = $(this).scrollTop();
-    if (wS > (hT+hH-wH) && is_scroll==false){
-        typewriter.typeString('A Consulting Brics nasceu do sonho de conectar o Brasil ao mundo e dar-lhe a conhecer o seu enorme potencial. Nascida no Mato Grosso e criada na fazenda de família, idealizei e construí uma empresa de consultoria global, com o objetivo de ajudar na urgente migração dos modelos de negócio para as áreas da sustentabilidade.').start();
-        is_scroll = true
-    }
- });

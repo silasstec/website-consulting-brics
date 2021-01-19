@@ -1,39 +1,7 @@
-
-        <video autoplay="true" loop muted playsinline id="background-video" >
-            <!-- MUDE O VIDEO NO LINK ABAIXO -->
-            <source src="assets/images/video-teste.mp4" type="video/mp4">
-            
-            <!-- IMG IF NO VIDEO FOUND -->
-            <img src="assets/images/video.png">
-        </video>
-
-        <header class="text-center hero" id="header-homepage" >
-            
-
-            <div style="height: 30%;"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-ms-12">
-                        <h1>Somos a ponte entre si e os seus objetivos.</h1>
-                        <button href="#contato" class="btn btn-action no-sm scroll-link">CONTACTE-NOS</button>
-                        
-                    </div>
-                </div>
-            </div>
-            
-            <img src="assets/images/full_video.png" class="full-video" onclick="toggleFullScreen();">
-
-            <span class="hero__scroll aos-init aos-animate no-sm" data-aos-easing="ease" data-aos-delay="800">
-				<i class="chevron bottom" style="color: #FFF;"></i>
-			</span>
-            
-        </header>
-
-
         <div class="bg-white" style="padding-top: 100px;margin-top: -100px;">
 
             <div class="text-center  d-block d-md-none d-lg-none d-xl-none m-b-50" style="margin-top:-25px;">
-                <button class="btn btn-action m-b-25 scroll-link" href="#contato">CONTACTE-NOS</button>
+                <button class="btn btn-action m-b-25 scroll-link" href="#contato"><?php echo $lang['homepage']['button']; ?></button>
                 <div>
                     <img src="assets/images/elipses-titles.png" class="m-t-50 img-fluid">
                 </div>
@@ -62,7 +30,7 @@
                                                         <img src="assets/images/linkedin-btn.png" align="left" class="linkedin">
                                                         <p class="name md-center">    
                                                             Elenice Candido da Silva<br>
-                                                            <small>• Fundadora & Chefe de Estratégia Internacional</small>
+                                                            <small>• <?php echo $lang['homepage']['sobre']['cargo_elenice']; ?></small>
                                                         </p>
                                                         <img src="assets/images/linkedin-btn-sm.png" class="linkedin-sm">
                                                         
@@ -85,7 +53,7 @@
                                                         <img src="assets/images/linkedin-btn.png" align="left" class="linkedin">
                                                         <p class="name md-center">    
                                                             Antonio Insana<br>
-                                                            <small>• Diretor Executivo (CEO)</small>
+                                                            <small>• <?php echo $lang['homepage']['sobre']['cargo_antonio']; ?></small>
                                                         </p>
                                                         <img src="assets/images/linkedin-btn-sm.png" class="linkedin-sm">
             
@@ -103,50 +71,25 @@
 
                         <div class="col-lg-6 col-md-12 col-sm-12 order-lg-2 order-md-1 order-1 md-center">
                             
-                            <h5 class="color-orange we-300 pt-13" data-aos="fade-left">SOBRE NÓS</h5>
+                            <h5 class="color-orange we-300 pt-13" data-aos="fade-left"><?php echo $lang['homepage']['sobre']['h5']; ?></h5>
                             
                             <h2 class="color-blue font-philosopher pt-38 we-700 elipse-title-right" style="margin-bottom: 0px;" data-aos="fade-left">
-                                Quem somos?
+                                <?php echo $lang['homepage']['sobre']['h2']; ?>
                             </h2>
                             <div class="divider bg-blue" data-aos="fade-left"></div>
                             <p class="pt-13 line-h-24 we-400" data-aos="fade-left">
-                                Somos uma consultora focada na migração sustentável.
-                                <br><br>
-                                No mundo empresarial, os modelos de negócio sustentável são um
-                                interesse crescente. É nesse sentido que proporcionamos métodos de
-                                apoio a empresas cujo objetivo passa por se renovarem de forma
-                                ecologicamente benéfica.
+                                <?php echo $lang['homepage']['sobre']['text1']; ?>
                             </p>
 
                             <p class="pt-13 line-h-24 we-400 d-none d-lg-block d-xs-block" data-aos="fade-left">
-                                Aliado a isto, é conhecida a importância de uma empresa estar tão bem
-                                posicionada a nível nacional, como internacional. O crescimento fora do
-                                mercado brasileiro traz desafios diversos, nem sempre visíveis, que
-                                conhecemos e compreendemos.
-                                <br><br>
-                                Esta visão é, em grande parte, resultante da vasta experiência da nossa fundadora, 
-                                Elenice Candido da Silva, que se destaca como conhecedora e especialista nas 
-                                nossas áreas de atuação.
-                                <br><br>
-                                Com um fornecimento de serviços que ajuda os nossos clientes a expandirem-se 
-                                globalmente, exploramos desafios e conquistamos os seus objetivos.
+                            <?php echo $lang['homepage']['sobre']['text2']; ?>
                             </p>
 
                         </div>
                     </div>
 
                     <p class="pt-13 line-h-24 we-400 d-sm-block d-md-block d-lg-none d-xs-none md-center">
-                        Aliado a isto, é conhecida a importância de uma empresa estar tão bem
-                        posicionada a nível nacional, como internacional. O crescimento fora do
-                        mercado brasileiro traz desafios diversos, nem sempre visíveis, que
-                        conhecemos e compreendemos.
-                        <br><br>
-                        Esta visão é, em grande parte, resultante da vasta experiência da nossa fundadora, 
-                        Elenice Candido da Silva, que se destaca como conhecedora e especialista nas 
-                        nossas áreas de atuação.
-                        <br><br>
-                        Com um fornecimento de serviços que ajuda os nossos clientes a expandirem-se 
-                        globalmente, exploramos desafios e conquistamos os seus objetivos.
+                        <?php echo $lang['homepage']['sobre']['text2']; ?>
                     </p>
 
                     <img src="assets/images/elipses_quemsomos.png" class="elipses d-none d-lg-block d-xl-block d-md-block">
@@ -163,13 +106,7 @@
 
                             <div class="comentario md-center" data-aos="fade-up">
                                 <div class="abre-aspas font-philosopher color-blue pt-150">“</div>
-
-                                <p class="font-philosopher pt-18 we-700 texto" id="comentario-elenice">
-                                    A Consulting Brics nasceu do sonho de conectar o Brasil ao mundo e dar-lhe a 
-                                    conhecer o seu enorme potencial. Nascida no Mato Grosso e criada na fazenda de 
-                                    família, idealizei e construí uma empresa de consultoria global, com o objetivo 
-                                    de ajudar na urgente migração dos modelos de negócio para as áreas da sustentabilidade.
-                                </p>
+                                <p class="font-philosopher pt-18 we-700 texto" id="comentario-elenice"></p>
                                 <div class="autor text-right upper we-300 md-center">
                                     <div>
                                         <img src="assets/images/assinatura.png" class="img-fluid" alt="">
@@ -197,11 +134,9 @@
 
                                 <img src="assets/images/missao.png" class="radius-15 item-img m-b-25 img-fluid">
                                 <div class="conteudo">
-                                    <strong class="we-500 color-blue upper pt-13">A nossa missão</strong>
+                                    <strong class="we-500 color-blue upper pt-13"><?php echo $lang['homepage']['missao']['titulo']; ?></strong>
                                     <p class="pt-13 we-400 m-t-15 line-h-24">
-                                        Suportar, através dos nossos serviços, a migração sustentável dos 
-                                        modelos de negócio, para se adaptar às novas exigências do mercado 
-                                        e valorizar o branding atribuindo um maior valor socioambiental.
+                                        <?php echo $lang['homepage']['missao']['descricao']; ?>
                                     </p>
                                 </div>
 
@@ -217,11 +152,9 @@
 
                                 <div class="conteudo">
                                     
-                                    <strong class="we-500 color-blue upper m-t-15">A nossa visão</strong>
+                                    <strong class="we-500 color-blue upper m-t-15"><?php echo $lang['homepage']['visao']['titulo']; ?></strong>
                                     <p class="pt-13 we-400 m-t-15 line-h-24">
-                                        Criar um ambiente económico global onde empresas e particulares 
-                                        podem potencializar ideias e negócios baseados nos pilares da 
-                                        sustentabilidade.
+                                    <?php echo $lang['homepage']['visao']['descricao']; ?>
                                     </p>
                                 </div>
 
@@ -232,13 +165,9 @@
                             <div class="item m-t-100 md-center">
                                 <img src="assets/images/valores.png" class="radius-15 item-img m-b-25 img-fluid">
                                 <div>
-                                    <strong class="we-500 color-blue upper">Os nossos valores</strong>
+                                    <strong class="we-500 color-blue upper"><?php echo $lang['homepage']['valores']['titulo']; ?></strong>
                                     <p class="pt-13 we-400 m-t-15 line-h-24">
-                                        Inovação na procura de soluções;
-                                        Transparência com os clientes;
-                                        Autenticidade na forma de atuar;
-                                        Sofisticação perante os objetivos;
-                                        Confiança nos nossos conhecimentos.
+                                        <?php echo $lang['homepage']['valores']['descricao']; ?>
                                     </p>
                                 </div>
                             </div>
@@ -259,8 +188,8 @@
 
                         <div class="col-lg-12 col-md-12 titulo-servicos">
                             <div  data-aos="fade-up">
-                                <h5 class="color-orange we-300 pt-13 upper">Serviços</h5>
-                                <h2 class="pt-38 font-philosopher we-700 color-blue">O que fazemos?</h2>
+                                <h5 class="color-orange we-300 pt-13 upper"><?php echo $lang['homepage']['servicos']['h5']; ?></h5>
+                                <h2 class="pt-38 font-philosopher we-700 color-blue"><?php echo $lang['homepage']['servicos']['h2']; ?></h2>
                                 <div class="divider bg-blue m-t-15 m-b-50 no-sm"></div>
                             </div>
                         </div>
@@ -273,13 +202,14 @@
                                     <img src="assets/images/icone-estrategia.png" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
-                                            estratégia e inovação
+
+                                            <?php echo $lang['homepage']['servicos']['item1']['titulo']; ?>
+
                                         </div>
                                         <div class="texto text-center line-h-24">
-                                            Desenvolvimento de Negócios e Ideias<br>
-                                            Estratégia de Mercado<br>
-                                            Consultoria em Comércio Externo<br>
-                                            Consultoria Legal
+
+                                            <?php echo $lang['homepage']['servicos']['item1']['descricao']; ?>
+
                                             <div class="text-right m-t-10">
                                                 <img src="assets/images/seta-para-direita.png" style="width: 30px;" alt="">
                                             </div>
@@ -302,12 +232,14 @@
                                     <img src="assets/images/icone-sustentabilidade.png" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
-                                            SUSTENTABILIDADE
+
+                                            <?php echo $lang['homepage']['servicos']['item2']['titulo']; ?>
+
                                         </div>
                                         <div class="texto text-center line-h-24">
-                                            Consultoria em Meio Ambiente<br>
-                                            Branding & Rebranding<br>
-                                            UX/UI Design
+
+                                            <?php echo $lang['homepage']['servicos']['item2']['descricao']; ?>
+
                                             <div class="text-right m-t-10">
                                                 <img src="assets/images/seta-para-direita.png" style="width: 30px;" alt="">
                                             </div>
@@ -330,12 +262,14 @@
                                     <img src="assets/images/icone-tecnologia.png" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
-                                            Tecnologia
+
+                                            <?php echo $lang['homepage']['servicos']['item3']['titulo']; ?>
+
                                         </div>
                                         <div class="texto text-center line-h-24">
-                                            IOT (Internet Das Coisas)<br>
-                                            Machine Learning + Data Science (BI)<br>
-                                            Engineering + IOT + Machine Learning
+
+                                            <?php echo $lang['homepage']['servicos']['item3']['descricao']; ?>
+
                                             <div class="text-right m-t-10">
                                                 <img src="assets/images/seta-para-direita.png" style="width: 30px;" alt="">
                                             </div>
@@ -364,8 +298,8 @@
 
                         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 order-1 order-sm-1 order-md-1 order-lg-2 md-center">
                             <div class="conteudo" data-aos="fade-up">
-                                <h5 class="color-orange we-300 pt-13 upper">contactos</h5>
-                                <h2 class="pt-38 font-philosopher we-700 color-blue">Contacte-nos</h2>
+                                <h5 class="color-orange we-300 pt-13 upper"><?php echo $lang['homepage']['contato']['h5']; ?></h5>
+                                <h2 class="pt-38 font-philosopher we-700 color-blue"><?php echo $lang['homepage']['contato']['h2'] ?></h2>
                                 <div class="divider bg-blue m-t-15 m-b-35"></div>
 
                                 <div style="padding-left: 40px;">

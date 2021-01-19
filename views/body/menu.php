@@ -10,35 +10,41 @@
                 <div class="navbar-collapse" id="navbar-menu-sm" style="margin-top:25px;">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="index.php#quem-somos">SOBRE NÓS</a>
+                            <a class="nav-link scroll-link" href="index.php#quem-somos"><?php echo $lang['homepage']['menu']['sobre']; ?></a>
                         </li> 
                         
                         <li class="nav-item dropdown dropdown-hover">
                             <a class="nav-link dropdown-toggle" href="servicos.html" id="menu-servicos-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                SERVIÇOS
+                            <?php echo $lang['homepage']['menu']['servicos']['titulo']; ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="menu-servicos-sm">
-                            <a class="dropdown-item" href="servicos.php#estrategia">ESTRATÉGIA E INOVAÇÃO</a>
-                            <a class="dropdown-item" href="servicos.php#sustentabilidade">SUSTENTABILIDADE</a>
-                            <a class="dropdown-item" href="servicos.php#tecnologia">TECNOLOGIA</a>
+                            <a class="dropdown-item" href="servicos.php#estrategia"><?php echo $lang['homepage']['menu']['servicos'][1]; ?></a>
+                            <a class="dropdown-item" href="servicos.php#sustentabilidade"><?php echo $lang['homepage']['menu']['servicos'][2]; ?></a>
+                            <a class="dropdown-item" href="servicos.php#tecnologia"><?php echo $lang['homepage']['menu']['servicos'][3]; ?></a>
                             </div>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="index.php#contato">CONTACTO </a>
+                            <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['homepage']['menu']['contato']; ?> </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" style="color:#F96205;">
-                                <img src="assets/images/en.png" alt="">
-                                PT
-                            </a>
-                        </li>
-						<li class="nav-item">
-                            <a class="nav-link" href="./index.html" lang="en">
-                                EN
-                            </a>
-							
-                        </li>
+
+                        <?php if($_COOKIE['lang']=='en'){ ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php?lang=pt">
+                                    <img src="assets/images/en.png" alt="">
+                                    PT
+                                </a>
+                            </li>
+                        <?php } ?>
+
+                        <?php if($_COOKIE['lang']=='pt'){ ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php?lang=en">
+                                    EN
+                                </a>
+                            </li>
+                        <?php } ?>
+
                     </ul>
                 </div>
 
@@ -74,18 +80,25 @@
                          <li class="nav-item">
                             <a class="nav-link scroll-link" href="index.php#contato">CONTACTO </a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color:#F96205;">
-                                <img src="assets/images/en.png" alt="">
-                                PT
-                            </a>
-							
-                        </li>
-						<li class="nav-item">
-                            <a class="nav-link" href="#" style="margin-left:-45px;" href="./index.html" lang="en">
-                                EN
-                            </a>
-                        </li>
+
+                        <?php if($_COOKIE['lang']=='en'){ ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php?lang=pt">
+                                    <img src="assets/images/en.png" alt="">
+                                    PT
+                                </a>
+                            </li>
+                        <?php } ?>
+
+                        <?php if($_COOKIE['lang']=='pt'){ ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.php?lang=en">
+                                    <img src="assets/images/en.png" alt="">
+                                    EN
+                                </a>
+                            </li>
+                        <?php } ?>
+
                     </ul>
                 </div>
             </div>

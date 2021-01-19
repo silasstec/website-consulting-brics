@@ -13,8 +13,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-ms-12">
-                        <h1>Somos a ponte entre si e os seus objetivos.</h1>
-                        <button href="#contato" class="btn btn-action no-sm scroll-link">CONTACTE-NOS</button>
+                        <h1><?php echo $lang['homepage']['header']['h1']; ?></h1>
+                        <button href="#contato" class="btn btn-action no-sm scroll-link upper"><?php echo $lang['homepage']['header']['button']; ?></button>
                         
                     </div>
                 </div>
