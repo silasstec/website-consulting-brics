@@ -1,3 +1,4 @@
+<?php require_once('config/app.php') ?>
 <!DOCTYPE html>
     <html lang="pt">
     <head>
@@ -10,8 +11,7 @@
     </head>
     <body>
         <?php require_once('views/body/menu.php'); ?>
-
-        <?php require_once('views/body/header.php'); ?>
+        
         <?php require_once('views/pages/servicos.php'); ?>
 
         <?php require_once('views/body/footer.php'); ?>
