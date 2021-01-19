@@ -2,9 +2,12 @@ $(".scroll-link").click(function(e) {
     e.preventDefault();
     var aid = $(this).attr("href");
 
-    console.log(aid)    
-
-    $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+    aid_split = aid.split('#')    
+    if(aid_split.lenght==1){
+        $('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+    }else{
+        window.location = aid
+    }
 });
 
 
