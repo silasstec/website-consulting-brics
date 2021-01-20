@@ -114,7 +114,7 @@ on the market by developing new ideas and goals for more informed and successful
 <strong class="upper we-500 color-orange pt-13">Market strategy</strong>
 <p class="pt-13 we-400">
     We develop strategies to reach your target audience in a more direct and personalized way, based
-on the elaboration of your and your clients' profiles.
+on the elaboration of your and your clients profiles.
 </p>
 
 <strong class="upper we-500 color-orange pt-13">foreign trade consultancy</strong>
@@ -147,7 +147,7 @@ For us, being sustainable means increase profits using fewer resources, with gre
     branding & rebranding
 </strong>
 <p class="pt-13 we-400">
-   The creator's personality and his story are the starting point for the analysis
+   The creators personality and his story are the starting point for the analysis
     that we make of your brand. We create a new visual identity or improve the
     already existing, based on a set of information.
     <br><br>
@@ -162,7 +162,7 @@ benefit this can bring to your company and customers.
     ux/ui design
 </strong>
 <p class="pt-13 we-400">
-Our team of designers translates our customers' wishes into a communication personalized look for creative sustainability. In agribusiness, this
+Our team of designers translates our customers wishes into a communication personalized look for creative sustainability. In agribusiness, this
 is a powerful tool to improve and enhance your development and reputation in the market.
 </p>';
 
