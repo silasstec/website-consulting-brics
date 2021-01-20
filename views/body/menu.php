@@ -18,9 +18,9 @@
                             <?php echo $lang['menu']['servicos']['titulo']; ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="menu-servicos-sm">
-                            <a class="dropdown-item" href="servicos.php#estrategia"><?php echo $lang['menu']['servicos'][1]; ?></a>
-                            <a class="dropdown-item" href="servicos.php#sustentabilidade"><?php echo $lang['menu']['servicos'][2]; ?></a>
-                            <a class="dropdown-item" href="servicos.php#tecnologia"><?php echo $lang['menu']['servicos'][3]; ?></a>
+                            <a class="dropdown-item upper" href="servicos.php#estrategia"><?php echo $lang['menu']['servicos'][1]; ?></a>
+                            <a class="dropdown-item upper" href="servicos.php#sustentabilidade"><?php echo $lang['menu']['servicos'][2]; ?></a>
+                            <a class="dropdown-item upper" href="servicos.php#tecnologia"><?php echo $lang['menu']['servicos'][3]; ?></a>
                             </div>
                         </li>
 
@@ -71,9 +71,9 @@
                                 SERVIÇOS
                             </a>
                             <div class="dropdown-menu" aria-labelledby="menu-servicos">
-                              <a class="dropdown-item" href="servicos.php#estrategia"><?php echo $lang['menu']['servicos'][1]; ?></a>
-                              <a class="dropdown-item" href="servicos.php#sustentabilidade"><?php echo $lang['menu']['servicos'][2]; ?></a>
-                              <a class="dropdown-item" href="servicos.php#tecnologia"><?php echo $lang['menu']['servicos'][3]; ?></a>
+                              <a class="dropdown-item upper" href="servicos.php#estrategia"><?php echo $lang['menu']['servicos'][1]; ?></a>
+                              <a class="dropdown-item upper" href="servicos.php#sustentabilidade"><?php echo $lang['menu']['servicos'][2]; ?></a>
+                              <a class="dropdown-item upper" href="servicos.php#tecnologia"><?php echo $lang['menu']['servicos'][3]; ?></a>
                             </div>
                           </li>
 
