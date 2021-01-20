@@ -7,7 +7,7 @@ $lang['menu']['contato'] = 'CONTACT';
 $lang['menu']['servicos']['titulo'] = 'SERVICES';
 $lang['menu']['servicos'][1] = 'STRATEGY AND INNOVATION';
 $lang['menu']['servicos'][2] = 'SUSTAINABILITY';
-$lang['menu']['servicos'][3] = 'tecnologia';
+$lang['menu']['servicos'][3] = 'Technology';
 
 /** END MENU **/
 
