@@ -121,7 +121,7 @@ on the elaboration of your and your clients profiles.
 <p class="pt-13 we-400">
     For your business to be recognized internationally, we identify customers that allow it to expand
 the network of commercial partners in a way to solidify your brand in those countries. We develop strategies to
-reach your target audience in a more direct and personalized way, based on the elaboration of your and your clients' profiles.
+reach your target audience in a more direct and personalized way, based on the elaboration of your and your clients profiles.
 </p>
 
 <strong class="upper we-500 color-orange pt-13">legal advice</strong>
@@ -136,7 +136,7 @@ $lang['servicos']['sustentabilidade'] = '<h2 class="font-philosopher pt-28 color
 </strong>
 <p class="pt-13 we-400">
 
-Companies' social and environmental impact makes it necessary for traditional business models to migrate in line with sustainable principles.
+Companies social and environmental impact makes it necessary for traditional business models to migrate in line with sustainable principles.
 
     <br><br>
    At Consulting Brics, we are passionate about following these businesses transition, especially in the agribusiness area. 
