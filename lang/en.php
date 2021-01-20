@@ -153,7 +153,7 @@ $lang['servicos']['sustentabilidade'] = '<h2 class="font-philosopher pt-28 color
     branding & rebranding
 </strong>
 <p class="pt-13 we-400">
-   The creator's personality and his story are the starting point for analysis
+   The creator\'s personality and his story are the starting point for analysis
     that we make of your brand. We create a new visual identity or improve the
     already existing, based on a set of information.
     <br><br>
@@ -170,7 +170,7 @@ $lang['servicos']['sustentabilidade'] = '<h2 class="font-philosopher pt-28 color
     ux/ui design
 </strong>
 <p class="pt-13 we-400">
-    Our team of designers translates our customers' wishes into a communication
+    Our team of designers translates our customers\' wishes into a communication
     personalized look for creative sustainability. In agribusiness, this is a
     powerful tool to improve and enhance your development and reputation
     in the market.

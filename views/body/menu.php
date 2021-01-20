@@ -10,22 +10,22 @@
                 <div class="navbar-collapse" id="navbar-menu-sm" style="margin-top:25px;">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="index.php#quem-somos"><?php echo $lang['homepage']['menu']['sobre']; ?></a>
+                            <a class="nav-link scroll-link" href="index.php#quem-somos"><?php echo $lang['menu']['sobre']; ?></a>
                         </li> 
                         
                         <li class="nav-item dropdown dropdown-hover">
                             <a class="nav-link dropdown-toggle" href="servicos.html" id="menu-servicos-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <?php echo $lang['homepage']['menu']['servicos']['titulo']; ?>
+                            <?php echo $lang['menu']['servicos']['titulo']; ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="menu-servicos-sm">
-                            <a class="dropdown-item" href="servicos.php#estrategia"><?php echo $lang['homepage']['menu']['servicos'][1]; ?></a>
-                            <a class="dropdown-item" href="servicos.php#sustentabilidade"><?php echo $lang['homepage']['menu']['servicos'][2]; ?></a>
-                            <a class="dropdown-item" href="servicos.php#tecnologia"><?php echo $lang['homepage']['menu']['servicos'][3]; ?></a>
+                            <a class="dropdown-item" href="servicos.php#estrategia"><?php echo $lang['menu']['servicos'][1]; ?></a>
+                            <a class="dropdown-item" href="servicos.php#sustentabilidade"><?php echo $lang['menu']['servicos'][2]; ?></a>
+                            <a class="dropdown-item" href="servicos.php#tecnologia"><?php echo $lang['menu']['servicos'][3]; ?></a>
                             </div>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['homepage']['menu']['contato']; ?> </a>
+                            <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['menu']['contato']; ?> </a>
                         </li>
 
                         <?php if($_COOKIE['lang']=='en'){ ?>
@@ -63,7 +63,7 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link scroll-link" href="index.php#quem-somos">SOBRE NÓS</a>
+                            <a class="nav-link scroll-link" href="index.php#quem-somos"><?php echo $lang['menu']['sobre']; ?></a>
                         </li>
                         
                         <li class="nav-item dropdown dropdown-hover">
@@ -71,14 +71,14 @@
                                 SERVIÇOS
                             </a>
                             <div class="dropdown-menu" aria-labelledby="menu-servicos">
-                              <a class="dropdown-item" href="servicos.php#estrategia">ESTRATÉGIA E INOVAÇÃO</a>
-                              <a class="dropdown-item" href="servicos.php#sustentabilidade">SUSTENTABILIDADE</a>
-                              <a class="dropdown-item" href="servicos.php#tecnologia">TECNOLOGIA</a>
+                              <a class="dropdown-item" href="servicos.php#estrategia"><?php echo $lang['menu']['servicos'][1]; ?></a>
+                              <a class="dropdown-item" href="servicos.php#sustentabilidade"><?php echo $lang['menu']['servicos'][2]; ?></a>
+                              <a class="dropdown-item" href="servicos.php#tecnologia"><?php echo $lang['menu']['servicos'][3]; ?></a>
                             </div>
                           </li>
 
                          <li class="nav-item">
-                            <a class="nav-link scroll-link" href="index.php#contato">CONTACTO </a>
+                            <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['menu']['contato']; ?> </a>
                         </li>
 
                         <?php if($_COOKIE['lang']=='en'){ ?>
