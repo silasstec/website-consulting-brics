@@ -4,7 +4,7 @@
 
 $lang['menu']['sobre'] = 'SOBRE NÓS';
 $lang['menu']['contato'] = 'CONTACTO';
-$lang['menu']['servicos']['titulo'] = 'Serviços';
+$lang['menu']['servicos']['titulo'] = 'SERVIÇOS';
 $lang['menu']['servicos'][1] = 'ESTRATÉGIA E INOVAÇÃO';
 $lang['menu']['servicos'][2] = 'SUSTENTABILIDADE';
 $lang['menu']['servicos'][3] = 'TECNOLOGIA';
