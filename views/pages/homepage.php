@@ -29,7 +29,7 @@
                         
                                                         <img src="assets/images/linkedin-btn.png" align="left" class="linkedin">
                                                         <p class="name md-center">    
-                                                            Elenice Candido da Silva<br>
+                                                            Elenice Cândido da Silva<br>
                                                             <small>• <?php echo $lang['homepage']['sobre']['cargo_elenice']; ?></small>
                                                         </p>
                                                         <img src="assets/images/linkedin-btn-sm.png" class="linkedin-sm">
@@ -111,7 +111,7 @@
                                     <div>
                                         <img src="assets/images/assinatura.png" class="img-fluid" alt="">
                                     </div>
-                                    - Elenice candido
+                                    - Elenice Cândido
                                 </div>
 
                                 <div class="fecha-aspas font-philosopher color-blue pt-150">”</div>
@@ -293,7 +293,14 @@
                     <div class="row">
 
                         <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 order-2 order-sm-2 order-md-2 order-lg-1">
-                            <img src="assets/images/mapa.png" class="mapa img-fluid" data-aos="fade-up">
+                            <div id="googleMap" class="mapa img-fluid" data-aos="fade-up" style="width:593px; height:395px;">
+                            <iframe
+                            width="593"
+                            height="395"
+                            frameborder="0" style="border:0"
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAgxD7eBy_ksw6oF1oWDDKHLEvF0iHZOxQ&q=Rua+Reinaldo+Schaffenberg+de+Quadros,308+Curitiba" allowfullscreen>
+                            </iframe>
+                            </div>
                         </div>
 
                         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 order-1 order-sm-1 order-md-1 order-lg-2 md-center">
@@ -314,7 +321,7 @@
                                     </p>
 
                                     <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/location.png" class="icone" style="margin-top: 25px;">
+                                        <img src="assets/images/location.png" class="icone" style="margin-top: -3px;">
                                         Rua Reinaldo Schaffenberg de Quadros, 308<br>
                                         Sala 4, Alto da XV - 80045 -070<br>
                                         Curitiba (PR)<br>

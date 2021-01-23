@@ -3,7 +3,7 @@
 /** MENU**/
 
 $lang['menu']['sobre'] = 'SOBRE NÓS';
-$lang['menu']['contato'] = 'CONTACTO';
+$lang['menu']['contato'] = 'CONTACTOS';
 $lang['menu']['servicos']['titulo'] = 'SERVIÇOS';
 $lang['menu']['servicos'][1] = 'ESTRATÉGIA E INOVAÇÃO';
 $lang['menu']['servicos'][2] = 'SUSTENTABILIDADE';
@@ -13,7 +13,7 @@ $lang['menu']['servicos'][3] = 'TECNOLOGIA';
 
 /** FOOTER **/
 
-$lang['footer']['text'] = '2020 © Consulting Brics. Todos os direitos reservados. Developed By <a href="https://www.silastec.com" style="color:white; font-weight:900;">SilasTec</a>';
+$lang['footer']['text'] = '2020 © Consulting Brics. Todos os direitos reservados. Desenvolvido por <a href="https://www.silastec.com" style="color:white; font-weight:900;">SilasTec</a>';
 $lang['footer']['legal'] = 'INFORMAÇÃO LEGAL';
 
 /** END FOOTER**/
@@ -44,7 +44,7 @@ mercado brasileiro traz desafios diversos, nem sempre visíveis, que
 conhecemos e compreendemos.
 <br><br>
 Esta visão é, em grande parte, resultante da vasta experiência da nossa fundadora, 
-Elenice Candido da Silva, que se destaca como conhecedora e especialista nas 
+Elenice Cândido da Silva, que se destaca como conhecedora e especialista nas 
 nossas áreas de atuação.
 <br><br>
 Com um fornecimento de serviços que ajuda os nossos clientes a expandirem-se 
