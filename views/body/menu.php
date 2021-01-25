@@ -28,21 +28,31 @@
                             <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['menu']['contato']; ?> </a>
                         </li>
 
-                        <?php if($_COOKIE['lang']=='en'){ ?>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.php?lang=pt">
-                                    <img src="assets/images/en.png" alt="">
-                                    PT
-                                </a>
-                            </li>
-                        <?php } ?>
+                        <?php if(isset($_COOKIE['lang'])){ ?>
+                            <?php if($_COOKIE['lang']=='en'){ ?>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php?lang=pt">
+                                        <img src="assets/images/en.png" alt="">
+                                        PT
+                                    </a>
+                                </li>
+                            <?php } ?>
 
-                        <?php if($_COOKIE['lang']=='pt'){ ?>
+                            <?php if($_COOKIE['lang']=='pt'){ ?>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php?lang=en">
+                                        EN
+                                    </a>
+                                </li>
+                            <?php } ?>
+                        <?php }else{ ?>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="index.php?lang=en">
                                     EN
                                 </a>
                             </li>
+
                         <?php } ?>
 
                     </ul>
@@ -80,23 +90,36 @@
                          <li class="nav-item">
                             <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['menu']['contato']; ?> </a>
                         </li>
+                        
+                        <?php if(isset($_COOKIE['lang'])){ ?>
 
-                        <?php if($_COOKIE['lang']=='en'){ ?>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.php?lang=pt">
-                                    <img src="assets/images/en.png" alt="">
-                                    PT
-                                </a>
-                            </li>
-                        <?php } ?>
+                            <?php if($_COOKIE['lang']=='en'){ ?>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php?lang=pt">
+                                        <img src="assets/images/en.png" alt="">
+                                        PT
+                                    </a>
+                                </li>
+                            <?php } ?>
 
-                        <?php if($_COOKIE['lang']=='pt'){ ?>
+                            <?php if($_COOKIE['lang']=='pt'){ ?>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php?lang=en">
+                                        <img src="assets/images/en.png" alt="">
+                                        EN
+                                    </a>
+                                </li>
+                            <?php } ?>
+
+                        <?php }else{ ?>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="index.php?lang=en">
                                     <img src="assets/images/en.png" alt="">
                                     EN
                                 </a>
                             </li>
+
                         <?php } ?>
 
                     </ul>

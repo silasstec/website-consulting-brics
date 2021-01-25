@@ -1,5 +1,7 @@
 <?php
 
+    
+
     if(!isset($_COOKIE['lang'])){
         setcookie('lang','pt');
     }
@@ -12,7 +14,11 @@
         }
     }
 
-    require_once('lang/'.$_COOKIE['lang'].'.php');
+    if(isset($_COOKIE['lang'])){
+        require_once('lang/'.$_COOKIE['lang'].'.php');
+    }else{
+        require_once('lang/pt.php');
+    }
 
     function lang($str){
         return str_ireplace(array("\r","\n",'\r','\n'),'', $str);
