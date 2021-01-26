@@ -235,6 +235,10 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     min-height: 450px;
 }
 
+#header-homepage #espaco{
+    height: 30%;
+}
+
 #header-homepage h1{
     margin-bottom: 50px;
     font-family: 'Philosopher', sans-serif;
@@ -796,6 +800,10 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
         display: none;
     }
 
+    #header-homepage #espaco{
+        height: 50px;
+    }
+
     .divider{
         display: block;
         margin-left: auto;
@@ -965,7 +973,11 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     #navbar-menu-sm .navbar-nav .nav-item .nav-link{
         font-size: 32pt !important;
     }
-    
+
+    #header-homepage #espaco{
+        height: 50px;
+    }
+
     header{
         height: 250px;
         min-height: 250px !important;
@@ -1063,7 +1075,7 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
         font-size: 12pt;
         padding: 8px;
         padding-left: 15px;
-        padding-right: 15px;
+        bottom: 130px;
     }
     
 }

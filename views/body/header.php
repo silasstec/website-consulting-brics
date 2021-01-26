@@ -1,4 +1,4 @@
-        <video autoplay="true" loop muted playsinline id="background-video" class="no-md">
+        <video autoplay="true" loop muted playsinline id="background-video" class="no-sm">
             <!-- MUDE O VIDEO NO LINK ABAIXO -->
             <source src="assets/images/video-teste.mp4" type="video/mp4">
             
@@ -13,10 +13,11 @@
         <header class="text-center hero" id="header-homepage" >
             
 
-            <div style="height: 30%;"></div>
+            
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-ms-12">
+                    <div id="espaco"></div>
                         <h1><?php echo $lang['homepage']['header']['h1']; ?></h1>
                         <button href="#contato" class="btn btn-action no-sm scroll-link upper"><?php echo $lang['homepage']['header']['button']; ?></button>
                         
