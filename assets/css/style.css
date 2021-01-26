@@ -469,6 +469,19 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     padding-top: 15px;
 }
 
+#footer-linkedin{
+    display:block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0px;
+    transition: margin-top 0.5s;
+}
+
+#footer-linkedin:hover{
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
 .btn-back-top{
     position: fixed;
     right: 0px;
