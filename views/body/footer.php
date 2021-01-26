@@ -1,4 +1,4 @@
-        <button href="#header-homepage" class="btn btn-action scroll-link btn-back-top">Back to top</button>
+        <button href="#body" class="btn btn-action scroll-link btn-back-top">Back to top</button>
         
         <div id="footer" class="bg-grey color-white">
             <div class="container">
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        
         <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
@@ -34,18 +34,6 @@
                                         
             var is_scroll = false;
             $(window).scroll(function() {
-
-                var hT = $('#comentario-elenice').offset().top,
-                    hH = $('#comentario-elenice').outerHeight(),
-                    wH = $(window).height(),
-                    wS = $(this).scrollTop();
-
-                if (wS > (hT+hH-wH) && is_scroll==false){
-                    $('.aspas').addClass('animate__zoomIn')
-                    typewriter.typeString('<?php echo lang($lang['homepage']['comentario']); ?>').start();
-                    is_scroll = true
-                }
-
                 /** **/
 
                 var hTbtt = $('.show-back-to-top').offset().top,

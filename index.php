@@ -14,7 +14,7 @@
 
         <title>Consulting Brics</title>
     </head>
-    <body>
+    <body id="body">
         <?php require_once('views/body/menu.php'); ?>
 
         <?php require_once('views/body/header.php'); ?>

@@ -28,7 +28,7 @@
         </div>
 
 
-        <div class="container" id="politica-privacidade">
+        <div class="container " id="politica-privacidade">
             <div class="row">
                 <div class="col-12">
                     <h2 class="font-philosopher pt-28 color-blue we-700 m-b-50">Política de privacidade</h2>
@@ -38,7 +38,7 @@
                     <p>1.4. Dados Pessoais s&atilde;o quaisquer informa&ccedil;&otilde;es relacionadas a uma pessoa identificada ou identific&aacute;vel e que demandam prote&ccedil;&atilde;o &agrave; luz da Lei Geral de Prote&ccedil;&atilde;o de Dados.</p>
                     <p>&nbsp;</p>
                     <ol start="2">
-                    <li><strong> Objetivo</strong></li>
+                    <li class="show-back-to-top"><strong> Objetivo</strong></li>
                     </ol>
                     <p>2.1. Esta pol&iacute;tica descreve por que e como coletamos e usamos seus Dados Pessoais e fornece informa&ccedil;&otilde;es sobre os direitos dos titulares de dados.</p>
                     <p>2.2. Para saber mais sobre nossas atividades espec&iacute;ficas de tratamento, leia esta pol&iacute;tica com aten&ccedil;&atilde;o.</p>
@@ -157,7 +157,7 @@
             </div>
         </div>
 
-        <div class="container" id="politica-cookies" style="margin-top:50px;">
+        <div class="container " id="politica-cookies" style="margin-top:50px;">
             <div class="row">
                 <div class="col-12">
 

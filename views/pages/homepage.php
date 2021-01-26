@@ -350,3 +350,28 @@
 
                 </div>
             </div>
+
+<script>
+    
+    var is_scroll = false;
+    $(window).scroll(function() {
+
+        var hT = $('#comentario-elenice').offset().top,
+            hH = $('#comentario-elenice').outerHeight(),
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+
+        if (wS > (hT+hH-wH)){
+            $('.aspas').addClass('animate__animated animate__bounceIn')
+        }else{
+            $('.aspas').removeClass('animate__animated animate__bounceIn')
+        }
+
+        if (wS > (hT+hH-wH) && is_scroll==false){
+            typewriter.typeString('<?php echo lang($lang['homepage']['comentario']); ?>').start();
+            is_scroll = true
+        }
+
+    });
+
+</script>

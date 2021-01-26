@@ -28,7 +28,7 @@
 
         
 
-        <div class="bg-blue-5 p-50" id="sustentabilidade">
+        <div class="bg-blue-5 p-50 show-back-to-top" id="sustentabilidade">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-xl-2 d-none d-lg-block d-xl-block">
