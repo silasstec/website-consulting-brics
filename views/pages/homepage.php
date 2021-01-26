@@ -12,7 +12,7 @@
             
             
             
-            <div id="quem-somos">
+            <div id="quem-somos" class="show-back-to-top">
 
                 <div class="container">
                     <div class="row">
@@ -104,17 +104,21 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-9 col-md-9">
 
-                            <div class="comentario md-center" data-aos="fade-up">
-                                <div class="abre-aspas font-philosopher color-blue pt-150">“</div>
+                            <div class="comentario md-center">
+
+                                <div class="abre-aspas font-philosopher color-blue pt-150 aspas">“</div>
+
                                 <p class="font-philosopher pt-18 we-700 texto" id="comentario-elenice"></p>
+
                                 <div class="autor text-right upper we-300 md-center">
                                     <div>
                                         <img src="assets/images/assinatura.png" class="img-fluid" alt="">
                                     </div>
-                                    - Elenice Cândido
+                                    <div style="width:18px;border-bottom:solid 1px #000;position:absolute;right:180px;margin-top:15px;"></div> Elenice Cândido
                                 </div>
 
-                                <div class="fecha-aspas font-philosopher color-blue pt-150">”</div>
+                                <div class="fecha-aspas font-philosopher color-blue pt-150 aspas">”</div>
+
                             </div>
 
                         </div>

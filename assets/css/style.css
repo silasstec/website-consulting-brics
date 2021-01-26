@@ -470,10 +470,10 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
 }
 
 .btn-back-top{
-    position: absolute;
-    right: 10px;
-    border-radius: 50px;
-    margin-top: -80px;
+    position: fixed;
+    right: 0px;
+    border-radius: 50px 0px 0px 50px !important;
+    bottom: 100px;
 }
 
 .dropdown-hover:hover>.dropdown-menu {

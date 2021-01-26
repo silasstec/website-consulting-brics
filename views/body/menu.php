@@ -64,7 +64,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-default bg-default fixed-top">
             <div class="container">    
-                <a class="navbar-brand h1 mb-0" href="./index.html">
+                <a class="navbar-brand h1 mb-0" href="./index.php">
                     <img src="assets/images/logotipo.png" alt="" id="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menu-modal">

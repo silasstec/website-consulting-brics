@@ -1,3 +1,5 @@
+        <button href="#header-homepage" class="btn btn-action scroll-link btn-back-top">Back to top</button>
+        
         <div id="footer" class="bg-grey color-white">
             <div class="container">
                 <div class="row justify-content-center">
@@ -8,7 +10,7 @@
                     </div>
                     <div class="col-lg-5 col-md-12 text-right md-center  order-md-1 order-lg-2">
                         <p class="pt-8">
-                            <a href="./legal.html" style="color:white;">
+                            <a href="./legal.php" style="color:white;">
                                 <?php echo $lang['footer']['legal']; ?>
                             </a>
                         </p>
@@ -32,14 +34,31 @@
                                         
             var is_scroll = false;
             $(window).scroll(function() {
+
                 var hT = $('#comentario-elenice').offset().top,
                     hH = $('#comentario-elenice').outerHeight(),
                     wH = $(window).height(),
                     wS = $(this).scrollTop();
+
                 if (wS > (hT+hH-wH) && is_scroll==false){
+                    $('.aspas').addClass('animate__zoomIn')
                     typewriter.typeString('<?php echo lang($lang['homepage']['comentario']); ?>').start();
                     is_scroll = true
                 }
+
+                /** **/
+
+                var hTbtt = $('.show-back-to-top').offset().top,
+                    hHbtt = $('.show-back-to-top').outerHeight(),
+                    wHbtt = $(window).height(),
+                    wSbtt = $(this).scrollTop();
+                    
+                if (wSbtt > (hTbtt+hHbtt-wHbtt)){
+                    $('.btn-back-top').show()
+                }else{
+                    $('.btn-back-top').hide()
+                }
+
             });
 
         </script>
