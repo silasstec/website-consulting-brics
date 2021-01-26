@@ -4,7 +4,7 @@
                 <button class="btn btn-action m-b-25 scroll-link" href="#contato"><?php echo $lang['homepage']['button']; ?></button>
                 <div>
                 
-                <svg style="display:block;margin-left:auto;margin-right:auto;" id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                <svg style="display:block;margin-left:auto;margin-right:auto;" id="circlerotation" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                     <style>
                         <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
                         33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 
@@ -92,7 +92,7 @@
                             
                             <div data-aos="fade-left">
 
-                            <svg id="epigszj6rzg81" style="position:absolute;right:0;margin-top:-15px;" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                            <svg id="circlerotation" style="position:absolute;right:0;margin-top:-15px;" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                                         <style>
                                             <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
                                             33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 
@@ -135,7 +135,7 @@
                         <?php echo $lang['homepage']['sobre']['text2']; ?>
                     </p>
 
-                    <svg id="evf3piw84hz1"  width="1390px" height="320px" class="elipses d-none d-lg-block d-xl-block d-md-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1365 278" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                    <svg id="circlelineabout"  width="1390px" height="320px" class="elipses d-none d-lg-block d-xl-block d-md-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1365 278" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                         <style>
                             <![CDATA[#evf3piw84hz4_to {
                                 animation: evf3piw84hz4_to__to 18000ms linear infinite normal forwards
@@ -150,7 +150,22 @@
                             <circle id="evf3piw84hz4" r="12" transform="translate(-0,-0)" fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
                         </g>
                     </svg>
-                    <img src="assets/images/elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: 0px;">
+                    <!-- <img src="assets/images/elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: 0px;"> -->
+                    <svg id="circlelineaboutsmall"  width="1390px" height="320px" style="margin-top: -110px;" class="elipses d-block d-lg-none d-xl-none d-md-none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1365 278" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                        <style>
+                            <![CDATA[#evf3piw84hz4_to {
+                                animation: evf3piw84hz4_to__to 18000ms linear infinite normal forwards
+                            }
+                            @keyframes evf3piw84hz4_to__to { 0% {offset-distance: 0%} 16.666667% {offset-distance: 16.666667%} 33.333333% 
+                            {offset-distance: 33.333333%} 50% {offset-distance: 50%} 66.666667% {offset-distance: 66.666667%} 83.333333% {offset-distance: 83.333333%} 100% {offset-distance: 100%} }]]>
+                        </style>
+                        <path id="evf3piw84hz2" d="M20.500000,39.500000C34,107.833000,105.600000,241.100000,284,227.500000C507,210.500000,643.500000,-21,778.500000,114C886.500000,222,1236.330000,73,1368.500000,1" 
+                        transform="matrix(1 0 0 1 0 11)" fill="none" stroke="rgb(249,98,5)" stroke-width="1" stroke-opacity="0.5"/>
+                        <circle id="evf3piw84hz3" width="20px" height="20px" r="16.500000" transform="matrix(1 0 0 1 16.31597175364643 35.31597175364644)" fill="rgb(249,98,5)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
+                        <g id="evf3piw84hz4_to" style="offset-path:path('M16,35C19.315751,60.074313,90.890341,411.663670,558.996615,127Q701.082239,41.149032,779.087198,127Q915.847248,225.855232,1365,12C1090.248097,163.690606,836.786735,190.323520,779.228325,127Q704.019235,41.049791,561.059028,127Q131.652854,391.093491,15.963810,34.963810');offset-rotate:0deg">
+                            <circle id="evf3piw84hz4" r="12" width="20px" height="20px" transform="translate(-0,-0)" fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
+                        </g>
+                    </svg>
 
                 </div>
             </div>
@@ -283,7 +298,7 @@
                     </div>  
 
                     <img src="assets/images/elipses-titles.png" class="elipses d-lg-none d-xs-none d-sm-block d-md-block img-center m-t-45 no-sm">
-                    <svg style="display:block;margin-left:auto;margin-right:auto;" id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid d-block d-lg-none d-xl-none" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                    <svg style="display:block;margin-left:auto;margin-right:auto;" id="circlerotation" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid d-block d-lg-none d-xl-none" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                     <style>
                         <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
                         33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 
@@ -411,7 +426,7 @@
 
                     </div>
 
-                    <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid elipses no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                    <svg id="circlerotation" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid elipses no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                         <style>
                             <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
                             33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 
