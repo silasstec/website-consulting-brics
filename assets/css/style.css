@@ -389,11 +389,11 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
 }
 
 #missao .item .circle{
-    width: 20px;
-    height: 20px;
+        /* width: 20px; */
+    /* height: 20px; */
     border-radius: 50px;
     position: absolute;
-    right: 45px;
+    right: 4px;
     top: 130px;
 }
 
@@ -916,8 +916,8 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     }
 
     #missao .item .circle-sm{
-        width: 20px;
-        height: 20px;
+        /* width: 20px;
+        height: 20px; */
         border-radius: 50px;
         position: relative;
         display: block;

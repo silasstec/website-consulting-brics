@@ -135,7 +135,21 @@
                         <?php echo $lang['homepage']['sobre']['text2']; ?>
                     </p>
 
-                    <img src="assets/images/elipses_quemsomos.png" class="elipses d-none d-lg-block d-xl-block d-md-block">
+                    <svg id="evf3piw84hz1"  width="1390px" height="320px" class="elipses d-none d-lg-block d-xl-block d-md-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1365 278" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                        <style>
+                            <![CDATA[#evf3piw84hz4_to {
+                                animation: evf3piw84hz4_to__to 18000ms linear infinite normal forwards
+                            }
+                            @keyframes evf3piw84hz4_to__to { 0% {offset-distance: 0%} 16.666667% {offset-distance: 16.666667%} 33.333333% 
+                            {offset-distance: 33.333333%} 50% {offset-distance: 50%} 66.666667% {offset-distance: 66.666667%} 83.333333% {offset-distance: 83.333333%} 100% {offset-distance: 100%} }]]>
+                        </style>
+                        <path id="evf3piw84hz2" d="M20.500000,39.500000C34,107.833000,105.600000,241.100000,284,227.500000C507,210.500000,643.500000,-21,778.500000,114C886.500000,222,1236.330000,73,1368.500000,1" 
+                        transform="matrix(1 0 0 1 0 11)" fill="none" stroke="rgb(249,98,5)" stroke-width="1" stroke-opacity="0.5"/>
+                        <circle id="evf3piw84hz3" r="16.500000" transform="matrix(1 0 0 1 16.31597175364643 35.31597175364644)" fill="rgb(249,98,5)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
+                        <g id="evf3piw84hz4_to" style="offset-path:path('M16,35C19.315751,60.074313,90.890341,411.663670,558.996615,127Q701.082239,41.149032,779.087198,127Q915.847248,225.855232,1365,12C1090.248097,163.690606,836.786735,190.323520,779.228325,127Q704.019235,41.049791,561.059028,127Q131.652854,391.093491,15.963810,34.963810');offset-rotate:0deg">
+                            <circle id="evf3piw84hz4" r="12" transform="translate(-0,-0)" fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
+                        </g>
+                    </svg>
                     <img src="assets/images/elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: 0px;">
 
                 </div>
@@ -177,7 +191,19 @@
                         <div class="col-lg-4 col-md-7" data-aos="fade-up">
                             <div class="item  md-center">
 
-                                <div class="circle bg-orange d-sm-none d-md-none d-lg-block d-xs-block no-sm"></div>
+                                <!-- <div class="circle bg-orange d-sm-none d-md-none d-lg-block d-xs-block no-sm"></div> -->
+                                <svg id="emqdqf05l9wh1" height="30px" width="100px" class="circle d-sm-none d-md-none d-lg-block d-xs-block no-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 38" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                                    <style>
+                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
+                                        {transform: translate(14px,19px)} }#emqdqf05l9wh2_ts {animation: emqdqf05l9wh2_ts__ts 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_ts__ts { 0% {transform: rotate(-180deg) scale(-1.020000,1.040000)}
+                                        13.333333% {transform: rotate(-180deg) scale(-1.020000,1.040000)} 30% {transform: rotate(-180deg) scale(-1.340000,1.350000)} 50% {transform: rotate(-180deg) scale(-1,1)} 66.666667% {transform: rotate(-180deg) 
+                                        scale(-1.340000,1.320000)} 83.333333% {transform: rotate(-180deg) scale(-1,1)} 100% {transform: rotate(-180deg) scale(-1,1)} }]]>
+                                    </style>
+                                    <g id="emqdqf05l9wh2_to" transform="translate(14,19)">
+                                        <g id="emqdqf05l9wh2_ts" transform="rotate(-180) scale(-1.020000,1.040000)"><circle id="emqdqf05l9wh2" r="14" transform="translate(0,0)" fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
+                                        </g>
+                                    </g>
+                                </svg>
 
                                 <img src="assets/images/missao.png" class="radius-15 item-img m-b-25 img-fluid">
                                 <div class="conteudo">
@@ -187,14 +213,37 @@
                                     </p>
                                 </div>
 
-                                <div class="circle-sm bg-orange d-lg-none d-xs-none d-sm-block d-md-block"></div>
+                                <!-- <div class="circle-sm bg-orange d-lg-none d-xs-none d-sm-block d-md-block"></div> -->
+                                <svg id="emqdqf05l9wh1" height="30px" width="100px"  class="circle-sm d-lg-none d-xs-none d-sm-block d-md-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 38" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                                    <style>
+                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
+                                        {transform: translate(14px,19px)} }#emqdqf05l9wh2_ts {animation: emqdqf05l9wh2_ts__ts 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_ts__ts { 0% {transform: rotate(-180deg) scale(-1.020000,1.040000)}
+                                        13.333333% {transform: rotate(-180deg) scale(-1.020000,1.040000)} 30% {transform: rotate(-180deg) scale(-1.340000,1.350000)} 50% {transform: rotate(-180deg) scale(-1,1)} 66.666667% {transform: rotate(-180deg) 
+                                        scale(-1.340000,1.320000)} 83.333333% {transform: rotate(-180deg) scale(-1,1)} 100% {transform: rotate(-180deg) scale(-1,1)} }]]>
+                                    </style>
+                                    <g id="emqdqf05l9wh2_to" transform="translate(14,19)">
+                                        <g id="emqdqf05l9wh2_ts" transform="rotate(-180) scale(-1.020000,1.040000)"><circle id="emqdqf05l9wh2" r="14" transform="translate(0,0)" fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
+                                        </g>
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-7 " data-aos="fade-up">
                             <div class="item m-t-50 md-center">
 
-                                <div class="circle bg-orange d-sm-none d-md-none d-lg-block d-xs-block no-sm" style="top:200px"></div>
-
+                                <!-- <div class="circle bg-orange d-sm-none d-md-none d-lg-block d-xs-block no-sm" style="top:200px"></div> -->
+                                <svg id="emqdqf05l9wh1" height="30px" width="100px"  class="circle d-sm-none d-md-none d-lg-block d-xs-block no-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 38" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                                    <style>
+                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
+                                        {transform: translate(14px,19px)} }#emqdqf05l9wh2_ts {animation: emqdqf05l9wh2_ts__ts 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_ts__ts { 0% {transform: rotate(-180deg) scale(-1.020000,1.040000)}
+                                        13.333333% {transform: rotate(-180deg) scale(-1.020000,1.040000)} 30% {transform: rotate(-180deg) scale(-1.340000,1.350000)} 50% {transform: rotate(-180deg) scale(-1,1)} 66.666667% {transform: rotate(-180deg) 
+                                        scale(-1.340000,1.320000)} 83.333333% {transform: rotate(-180deg) scale(-1,1)} 100% {transform: rotate(-180deg) scale(-1,1)} }]]>
+                                    </style>
+                                    <g id="emqdqf05l9wh2_to" transform="translate(14,19)">
+                                        <g id="emqdqf05l9wh2_ts" transform="rotate(-180) scale(-1.020000,1.040000)"><circle id="emqdqf05l9wh2" r="14" transform="translate(0,0)" fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
+                                        </g>
+                                    </g>
+                                </svg>
                                 <img src="assets/images/visao.png" class="radius-15 item-img m-b-25 img-fluid">
 
                                 <div class="conteudo">
@@ -205,7 +254,19 @@
                                     </p>
                                 </div>
 
-                                <div class="circle-sm bg-orange d-lg-none d-xs-none d-sm-block d-md-block"></div>
+                                <!-- <div class="circle-sm bg-orange d-lg-none d-xs-none d-sm-block d-md-block"></div> -->
+                                <svg id="emqdqf05l9wh1" height="30px" width="100px"  class="circle-sm d-lg-none d-xs-none d-sm-block d-md-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 38" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                                    <style>
+                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
+                                        {transform: translate(14px,19px)} }#emqdqf05l9wh2_ts {animation: emqdqf05l9wh2_ts__ts 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_ts__ts { 0% {transform: rotate(-180deg) scale(-1.020000,1.040000)}
+                                        13.333333% {transform: rotate(-180deg) scale(-1.020000,1.040000)} 30% {transform: rotate(-180deg) scale(-1.340000,1.350000)} 50% {transform: rotate(-180deg) scale(-1,1)} 66.666667% {transform: rotate(-180deg) 
+                                        scale(-1.340000,1.320000)} 83.333333% {transform: rotate(-180deg) scale(-1,1)} 100% {transform: rotate(-180deg) scale(-1,1)} }]]>
+                                    </style>
+                                    <g id="emqdqf05l9wh2_to" transform="translate(14,19)">
+                                        <g id="emqdqf05l9wh2_ts" transform="rotate(-180) scale(-1.020000,1.040000)"><circle id="emqdqf05l9wh2" r="14" transform="translate(0,0)" fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
+                                        </g>
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-7" data-aos="fade-up">
