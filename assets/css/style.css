@@ -232,7 +232,7 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     background-size: 100%;
     margin-bottom: 75px;
     margin-top: 85px;
-    min-height: 500px;
+    min-height: 450px;
 }
 
 #header-homepage h1{
@@ -787,8 +787,8 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     }
 
     header{
-        height: 470px;
-        min-height: 470px !important;
+        height: 450px;
+        min-height: 450px !important;
         
     }
 
@@ -967,8 +967,8 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     }
     
     header{
-        height: 280px;
-        min-height: 280px !important;
+        height: 250px;
+        min-height: 250px !important;
     }
 
     header h1{

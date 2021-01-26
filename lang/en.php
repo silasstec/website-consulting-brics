@@ -21,7 +21,7 @@ $lang['footer']['legal'] = 'LEGAL INFORMATION';
 /** HOMEPAGE **/
 
 $lang['homepage'] = [];
-
+$lang['homepage']['button'] = "CONTACT US";
 $lang['homepage']['header']['h1'] = 'We are the bridge between you and your goals.';
 $lang['homepage']['header']['button'] = 'CONTACT US';
 

@@ -1,10 +1,14 @@
-        <video autoplay="true" loop muted playsinline id="background-video" >
+        <video autoplay="true" loop muted playsinline id="background-video" class="no-md">
             <!-- MUDE O VIDEO NO LINK ABAIXO -->
             <source src="assets/images/video-teste.mp4" type="video/mp4">
             
             <!-- IMG IF NO VIDEO FOUND -->
             <img src="assets/images/video.png">
         </video>
+
+        
+        <img src="assets/images/video.png" style="position: fixed;z-index: -10;max-width: 100%;">
+        
 
         <header class="text-center hero" id="header-homepage" >
             

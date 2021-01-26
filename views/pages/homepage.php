@@ -16,7 +16,7 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 order-md-2 order-2">
+                        <div class="col-12 col-lg-6 col-md-12 col-sm-12 order-lg-1 order-md-2 order-2">
 
                             <div class="row">
                                 <div class="col-lg-6 col-md-12 md-center " style="min-height: 350px;">
@@ -41,6 +41,7 @@
                                     </a>
 
                                 </div>
+
                                 <div class="col-lg-5 col-md-12 offset-lg-5 md-center" style="min-height: 350px;">
 
                                     <a href="https://www.linkedin.com/in/antinsan" target="_blank">
@@ -69,21 +70,24 @@
 
                         </div>
 
-                        <div class="col-lg-6 col-md-12 col-sm-12 order-lg-2 order-md-1 order-1 md-center">
+                        <div class="col-12 col-lg-6 col-md-12 col-sm-12 order-lg-2 order-md-1 order-1 md-center">
                             
-                            <h5 class="color-orange we-300 pt-13" data-aos="fade-left"><?php echo $lang['homepage']['sobre']['h5']; ?></h5>
-                            
-                            <h2 class="color-blue font-philosopher pt-38 we-700 elipse-title-right" style="margin-bottom: 0px;" data-aos="fade-left">
-                                <?php echo $lang['homepage']['sobre']['h2']; ?>
-                            </h2>
-                            <div class="divider bg-blue" data-aos="fade-left"></div>
-                            <p class="pt-13 line-h-24 we-400" data-aos="fade-left">
-                                <?php echo $lang['homepage']['sobre']['text1']; ?>
-                            </p>
+                            <div data-aos="fade-left">
+                                <div class="color-orange we-300 pt-13"><?php echo $lang['homepage']['sobre']['h5']; ?></div>
+                                
+                                <div class="color-blue font-philosopher pt-38 we-700 elipse-title-right" style="margin-bottom: 15px;">
+                                    <?php echo $lang['homepage']['sobre']['h2']; ?>
+                                </div>
+                                
+                                <div class="divider bg-blue"></div>
+                                <p class="pt-13 line-h-24 we-400">
+                                    <?php echo $lang['homepage']['sobre']['text1']; ?>
+                                </p>
 
-                            <p class="pt-13 line-h-24 we-400 d-none d-lg-block d-xs-block" data-aos="fade-left">
-                            <?php echo $lang['homepage']['sobre']['text2']; ?>
-                            </p>
+                                <p class="pt-13 line-h-24 we-400 d-none d-lg-block d-xs-block">
+                                <?php echo $lang['homepage']['sobre']['text2']; ?>
+                                </p>
+                            </div>
 
                         </div>
                     </div>
@@ -298,7 +302,7 @@
 
                         <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 order-2 order-sm-2 order-md-2 order-lg-1">
                             <div id="googleMap" class="mapa img-fluid" data-aos="fade-up" style="width:593px; height:395px;">
-                            <iframe
+                            <iframe class="embed-responsive"
                             width="593"
                             height="395"
                             frameborder="0" style="border:0"
