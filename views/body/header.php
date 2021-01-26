@@ -7,7 +7,7 @@
         </video>
 
         
-        <img src="assets/images/video.png" style="position: fixed;z-index: -10;max-width: 100%;">
+        <img src="assets/images/video.png" style="" class="bg-video-sm">
         
 
         <header class="text-center hero" id="header-homepage" >
