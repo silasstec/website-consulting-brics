@@ -77,7 +77,9 @@
                                 
                                 <div class="color-blue font-philosopher pt-38 we-700" style="margin-bottom: 15px;">
                                     <?php echo $lang['homepage']['sobre']['h2']; ?>
-                                    <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="    position: absolute;
+                                    
+                                </div>
+                                <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="    position: absolute;
                                         /* margin-right: 2px; */
                                         left: 18em;
                                         bottom: 33em;">
@@ -97,8 +99,6 @@
                                             <circle id="epigszj6rzg84" r="14" transform="scale(0.653891,0.653891) translate(0,0)" fill="rgb(0,0,148)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
                                         </g>
                                     </svg>
-                                </div>
-                                
                                 <div class="divider bg-blue"></div>
                                 <p class="pt-13 line-h-24 we-400">
                                     <?php echo $lang['homepage']['sobre']['text1']; ?>
