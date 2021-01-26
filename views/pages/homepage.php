@@ -494,7 +494,8 @@
 
                     <div>
                         <!-- <img src="assets/images/elipses_contacto.png" class="elipses d-none d-md-block d-lg-block d-xs-block"> -->
-                        <svg id="svgcirclelinebottom" width="700px" height="300px" class="circle d-none d-md-block d-lg-block d-xs-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 678 247" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                        
+                        <svg style="position:absolute;margin-left:-150px;margin-top:-130px;" id="svgcirclelinebottom" width="700px" height="300px" class="circle d-none d-md-block d-lg-block d-xs-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 678 247" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                             <style>
                                 <![CDATA[#e11fc7imikvsq2_to {animation: e11fc7imikvsq2_to__to 3000ms linear infinite normal forwards}@keyframes e11fc7imikvsq2_to__to { 0% {offset-distance: 0%} 10% {offset-distance: 14.285714%} 23.333333% 
                                 {offset-distance: 28.571429%} 33.333333% {offset-distance: 42.857143%} 50% {offset-distance: 57.142857%} 63.333333% {offset-distance: 71.428571%} 83.333333% {offset-distance: 85.714286%} 100% {offset-distance: 100%} }]]>
@@ -505,6 +506,7 @@
                         <circle id="e11fc7imikvsq3" r="16" transform="matrix(1 0 0 1 16 16.99220000000000)" fill="rgb(0,0,148)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
                         <path id="e11fc7imikvsq4" d="M23.500000,30.992200C55.666700,94.325500,70.100000,228.792000,266.500000,213.992000C512,195.492000,489,128.992000,643.500000,213.992000" fill="none" stroke="rgb(0,0,148)" stroke-width="1"/>
                         </svg>
+
                         <img src="assets/images/elipses_contactos_small.png" class="elipses d-block d-md-none d-lg-none d-xl-none" >
                         
                     </div>
