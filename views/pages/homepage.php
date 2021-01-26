@@ -272,7 +272,7 @@
                                 <!-- <div class="circle-sm bg-orange d-lg-none d-xs-none d-sm-block d-md-block"></div> -->
                                 <svg id="emqdqf05l9wh1" height="30px" width="100px"  class="circle-sm d-lg-none d-xs-none d-sm-block d-md-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 38" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                                     <style>
-                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 18000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
+                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
                                         {transform: translate(14px,19px)} }#emqdqf05l9wh2_ts {animation: emqdqf05l9wh2_ts__ts 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_ts__ts { 0% {transform: rotate(-180deg) scale(-1.020000,1.040000)}
                                         13.333333% {transform: rotate(-180deg) scale(-1.020000,1.040000)} 30% {transform: rotate(-180deg) scale(-1.340000,1.350000)} 50% {transform: rotate(-180deg) scale(-1,1)} 66.666667% {transform: rotate(-180deg) 
                                         scale(-1.340000,1.320000)} 83.333333% {transform: rotate(-180deg) scale(-1,1)} 100% {transform: rotate(-180deg) scale(-1,1)} }]]>
@@ -497,7 +497,7 @@
                         
                         <svg style="position:absolute;margin-left:-150px;margin-top:-130px;" id="svgcirclelinebottom" width="700px" height="300px" class="circle d-none d-lg-block d-xl-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 678 247" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                             <style>
-                                <![CDATA[#e11fc7imikvsq2_to {animation: e11fc7imikvsq2_to__to 3000ms linear infinite normal forwards}@keyframes e11fc7imikvsq2_to__to { 0% {offset-distance: 0%} 10% {offset-distance: 14.285714%} 23.333333% 
+                                <![CDATA[#e11fc7imikvsq2_to {animation: e11fc7imikvsq2_to__to 18000ms linear infinite normal forwards}@keyframes e11fc7imikvsq2_to__to { 0% {offset-distance: 0%} 10% {offset-distance: 14.285714%} 23.333333% 
                                 {offset-distance: 28.571429%} 33.333333% {offset-distance: 42.857143%} 50% {offset-distance: 57.142857%} 63.333333% {offset-distance: 71.428571%} 83.333333% {offset-distance: 85.714286%} 100% {offset-distance: 100%} }]]>
                             </style>
                             <g id="e11fc7imikvsq2_to" style="offset-path:path('M16,16.992204C37.733501,45.313492,56.930083,170.457148,146.417093,199.291088Q226.403421,238.066955,459.955441,182.225951Q508.653239,163.388357,572.267348,179.285848Q606.258791,192.201359,644,215.155096Q546.721720,148.099826,457.303506,182.813972Q242.421135,239.242997,147.122717,198.249509Q80.427344,186.615166,16,16.992204');offset-rotate:0deg">
