@@ -493,7 +493,7 @@
                     </div>
 
                     <div>
-                        <img src="assets/images/elipses_contacto.png" class="elipses d-none d-md-block d-lg-block d-xs-block">
+                        <img src="assets/images/elipses_contacto.png" class="elipses d-none d-md-block d-lg-none d-xs-none">
                         
                         <svg style="position:absolute;margin-left:-150px;margin-top:-130px;" id="svgcirclelinebottom" width="700px" height="300px" class="circle d-none d-lg-block d-xl-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 678 247" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                             <style>
