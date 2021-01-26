@@ -79,10 +79,10 @@
                                     <?php echo $lang['homepage']['sobre']['h2']; ?>
                                     
                                 </div>
-                                <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="    position: absolute;
+                                <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="    position: absolute;
                                         /* margin-right: 2px; */
                                         right: 0;
-                                        bottom: 33em;">
+                                        bottom: 600;">
                                         <style>
                                             <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
                                             33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 
