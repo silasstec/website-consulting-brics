@@ -272,7 +272,7 @@
                                 <!-- <div class="circle-sm bg-orange d-lg-none d-xs-none d-sm-block d-md-block"></div> -->
                                 <svg id="emqdqf05l9wh1" height="30px" width="100px"  class="circle-sm d-lg-none d-xs-none d-sm-block d-md-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 38" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                                     <style>
-                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
+                                        <![CDATA[#emqdqf05l9wh2_to {animation: emqdqf05l9wh2_to__to 18000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_to__to { 0% {transform: translate(14px,19px)} 50% {transform: translate(86px,19px)} 100% 
                                         {transform: translate(14px,19px)} }#emqdqf05l9wh2_ts {animation: emqdqf05l9wh2_ts__ts 3000ms linear 1s normal infinite}@keyframes emqdqf05l9wh2_ts__ts { 0% {transform: rotate(-180deg) scale(-1.020000,1.040000)}
                                         13.333333% {transform: rotate(-180deg) scale(-1.020000,1.040000)} 30% {transform: rotate(-180deg) scale(-1.340000,1.350000)} 50% {transform: rotate(-180deg) scale(-1,1)} 66.666667% {transform: rotate(-180deg) 
                                         scale(-1.340000,1.320000)} 83.333333% {transform: rotate(-180deg) scale(-1,1)} 100% {transform: rotate(-180deg) scale(-1,1)} }]]>
