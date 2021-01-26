@@ -342,7 +342,7 @@
                     </div>
 
                     <div>
-                        <img src="assets/images/elipses_contacto.png" class="elipses d-none d-md-block d-lg-block d-xs-block" style="margin-top:-100px;">
+                        <img src="assets/images/elipses_contacto.png" class="elipses d-none d-md-block d-lg-block d-xs-block">
                         <img src="assets/images/elipses_contactos_small.png" class="elipses d-block d-md-none d-lg-none d-xl-none" >
                         
                     </div>

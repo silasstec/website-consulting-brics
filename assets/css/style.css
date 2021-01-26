@@ -465,7 +465,7 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
 }
 
 #contato .elipses{
-    position: absolute; z-index: 10;margin-left:-150px;margin-top:-150px;
+    position: absolute; z-index: 10;margin-left:-150px;margin-top:-100px;
 }
 
 
@@ -485,6 +485,8 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     margin-top: -15px;
     margin-bottom: 15px;
 }
+
+
 
 .btn-back-top{
     position: fixed;
@@ -938,11 +940,11 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     }
 
     #contato .elipses{
-        width: 50%;
+        width: 40%;
         position: absolute; 
         z-index: 10;
-        margin-left:-150px;
-        margin-top:-75px;
+        margin-left:-70px;
+        margin-top:0px;
     }
 
     #contato .conteudo .icone{
@@ -951,12 +953,7 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
         width: 24px;
     }
 
-    #contato .elipses{
-        position: absolute; 
-        z-index: 10;
-        margin-left:-70px;
-        margin-top:0px;
-    }
+    
 
 }
 
