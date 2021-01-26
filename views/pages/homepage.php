@@ -91,16 +91,8 @@
                         <div class="col-12 col-lg-6 col-md-12 col-sm-12 order-lg-2 order-md-1 order-1 md-center">
                             
                             <div data-aos="fade-left">
-                                <div class="color-orange we-300 pt-13"><?php echo $lang['homepage']['sobre']['h5']; ?></div>
-                                
-                                <div class="color-blue font-philosopher pt-38 we-700" style="margin-bottom: 15px;">
-                                    <?php echo $lang['homepage']['sobre']['h2']; ?>
-                                    
-                                </div>
-                                <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="    position: absolute;
-                                        /* margin-right: 2px; */
-                                        right: 0;
-                                        bottom: 600;">
+
+                            <svg id="epigszj6rzg81" style="position:absolute;right:0;margin-top:-15px;" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                                         <style>
                                             <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
                                             33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 
@@ -117,6 +109,14 @@
                                             <circle id="epigszj6rzg84" r="14" transform="scale(0.653891,0.653891) translate(0,0)" fill="rgb(0,0,148)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
                                         </g>
                                     </svg>
+
+
+                                <div class="color-orange we-300 pt-13"><?php echo $lang['homepage']['sobre']['h5']; ?></div>
+                                
+                                <div class="color-blue font-philosopher pt-38 we-700" style="margin-bottom: 15px;">
+                                    <?php echo $lang['homepage']['sobre']['h2']; ?>
+                                    
+                                </div>
 
                                 <div class="divider bg-blue"></div>
                                 <p class="pt-13 line-h-24 we-400">
@@ -221,8 +221,24 @@
                         </div>
                     </div>  
 
-                    <img src="assets/images/elipses-titles.png" class="elipses d-lg-none d-xs-none d-sm-block d-md-block img-center m-t-45">
-
+                    <img src="assets/images/elipses-titles.png" class="elipses d-lg-none d-xs-none d-sm-block d-md-block img-center m-t-45 no-sm">
+                    <svg style="display:block;margin-left:auto;margin-right:auto;" id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid d-block d-lg-none d-xl-none" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                    <style>
+                        <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
+                        33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 
+                        {animation: epigszj6rzg84_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg84_to__to { 0% {offset-distance: 0%} 33.333333% 
+                        {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }]]>
+                    </style>
+                    <circle id="epigszj6rzg82" r="25" transform="matrix(0.56964325147047 0 0 0.56964325147047 43.31890171000000 41.19280123000000)" 
+                        fill="rgb(253,134,61)" stroke="none" stroke-width="1"/>
+                    <g id="epigszj6rzg83_to" style="offset-path:path('M22.538910,58.540077C38.193472,77.581107,72.659089,60.701264,65.162410,50.347276C72.718109,60.469815,38.511066,77.600462,22.538910,58.972793');offset-rotate:0deg">
+                        <circle id="epigszj6rzg83" r="10" transform="scale(0.653891,0.653891) translate(0,0)" fill="rgb(249,98,5)" fill-opacity="0.5" 
+                        stroke="none" stroke-width="1"/>
+                    </g>
+                    <g id="epigszj6rzg84_to" style="offset-path:path('M13.538910,37.846692C29.972650,0.443842,74.101936,15.716554,67.777974,32.038327C73.924743,15.717673,29.908374,0.797524,14.099949,38.106194');offset-rotate:0deg">
+                        <circle id="epigszj6rzg84" r="14" transform="scale(0.653891,0.653891) translate(0,0)" fill="rgb(0,0,148)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
+                    </g>
+                </svg>
                    
 
                 </div>
@@ -334,7 +350,7 @@
 
                     </div>
 
-                    <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid elipses" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                    <svg id="epigszj6rzg81" xmlns="http://www.w3.org/2000/svg" width="140px" height="120px" class="img-fluid elipses no-sm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 89 79" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
                         <style>
                             <![CDATA[#epigszj6rzg83_to {animation: epigszj6rzg83_to__to 3000ms linear 1s normal infinite}@keyframes epigszj6rzg83_to__to { 0% {offset-distance: 0%}
                             33.333333% {offset-distance: 50%} 66.666667% {offset-distance: 100%} 100% {offset-distance: 100%} }#epigszj6rzg84_to 

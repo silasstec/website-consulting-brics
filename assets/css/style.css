@@ -497,6 +497,7 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
 
 .btn-back-top{
     position: fixed;
+    z-index:999;
     right: 0px;
     border-radius: 50px 0px 0px 50px !important;
     bottom: 100px;
