@@ -107,7 +107,7 @@
                     
                     <img src="assets/images/elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: 0px;">
                     <img src="assets/images/elipses_quemsomos.png" class="elipses d-none d-lg-block d-xl-block d-md-block">
-                    
+
                 </div>
             </div>
 
@@ -306,7 +306,7 @@
 
                     </div>
 
-                    <img src="assets/images/elipses-titles.png" class="m-t-45 no-sm" style="margin-top:-30px;margin-bottom:25px;margin-left:-50px;">
+                    <img src="assets/images/elipses-titles.png" class="m-t-45 d-none d-lg-block d-xl-block" style="margin-top:-30px;margin-bottom:25px;margin-left:-50px;">
 
                     <img src="assets/images/elipses-titles.png" class="m-t-45 img-center d-block d-lg-none d-xl-none" style="margin-top:-30px;margin-bottom:50px;">
 
