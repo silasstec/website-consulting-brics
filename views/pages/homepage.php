@@ -106,13 +106,13 @@
 
                     
                     <img src="assets/images/elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: 0px;">
+                    <img src="assets/images/elipses_quemsomos.png" class="elipses d-none d-lg-block d-xl-block d-md-block">
                     
-
                 </div>
             </div>
 
             <div id="comentario" class="bg-blue-5">
-
+                
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-9 col-md-9">
