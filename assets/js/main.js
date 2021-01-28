@@ -15,7 +15,7 @@ $('#navbar-menu-sm .navbar-nav .nav-item .scroll-link').click(function(){
     $('#menu-modal').modal('hide');
 })
 
-function toggleFullScreen() {
+function toggleFullScreen(event) {
     var player = document.querySelector('#background-video');
     if (!document.mozFullScreen && !document.webkitFullScreen) {
         if (player.mozRequestFullScreen) {
@@ -30,6 +30,12 @@ function toggleFullScreen() {
         } else {
             document.webkitCancelFullScreen();
         }
+    }
+    if(!!player.isMuted())
+    {
+        player.unMute();
+    } else {
+        player.mute();
     }
 }
 

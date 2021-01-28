@@ -1,11 +1,14 @@
-        <video autoplay="true" loop muted playsinline id="background-video" class="no-sm">
+        <!-- <video autoplay="true" loop muted playsinline id="background-video" class="no-sm"> -->
             <!-- MUDE O VIDEO NO LINK ABAIXO -->
-            <source src="assets/images/video-teste.mp4" type="video/mp4">
+            <!-- <source src="assets/images/video-teste.mp4" type="video/mp4"> -->
             
             <!-- IMG IF NO VIDEO FOUND -->
-            <img src="assets/images/video.png">
-        </video>
-
+            <!-- <img src="assets/images/video.png">
+        </video> -->
+            <iframe id="background-video" class="no-sm" frameborder="0" height="114%" width="100%"
+                src="https://www.youtube.com/embed/8lAVbdnj4gI?autoplay=1&mute=1&controls=0&showinfo=0&autohide=1&loop=1&playlist=8lAVbdnj4gI">
+            </iframe>
+            
         
         <img src="assets/images/video.png" style="" class="bg-video-sm">
         
