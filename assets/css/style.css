@@ -55,6 +55,10 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     padding: 50px;
 }
 
+.p-100{
+    padding: 100px;
+}
+
 
 /** BORDER RADIUS **/
 .radius-0{border-radius: 0px;}

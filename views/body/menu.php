@@ -85,9 +85,13 @@
                               <a class="dropdown-item upper" href="servicos.php#sustentabilidade"><?php echo $lang['menu']['servicos'][2]; ?></a>
                               <a class="dropdown-item upper" href="servicos.php#tecnologia"><?php echo $lang['menu']['servicos'][3]; ?></a>
                             </div>
-                          </li>
+                        </li>
 
-                         <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link scroll-link" href="artigos.php"><?php echo $lang['menu']['artigos']; ?> </a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['menu']['contato']; ?> </a>
                         </li>
                         
