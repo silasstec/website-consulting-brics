@@ -25,6 +25,7 @@
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
         <script src="assets/js/main.js"></script>
+        
         <script src="node_modules/aos/dist/aos.js"></script>
         <script>
             AOS.init();
@@ -50,3 +51,5 @@
             });
 
         </script>
+
+        

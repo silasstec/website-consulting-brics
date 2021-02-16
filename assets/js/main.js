@@ -46,4 +46,3 @@ var typewriter = new Typewriter(app, {
     delay: 10,
 });
 
-

@@ -25,6 +25,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link scroll-link" href="artigos.php"><?php echo $lang['menu']['artigos']; ?> </a>
+                        </li>
+                        
+                        <li class="nav-item">
                             <a class="nav-link scroll-link" href="index.php#contato"><?php echo $lang['menu']['contato']; ?> </a>
                         </li>
 

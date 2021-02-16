@@ -744,9 +744,61 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     min-height: 100%;
     border-radius: 0;
   }
-/** MEDIUM DISPLAY **/
 
+
+.container-xl{
+    width:1110px;
+}
+
+#article-principal{
+    margin-top:160px;
+}
+
+.articles-responsives .rows {
+    height: auto;
+}
+
+.articles-responsives .cols {
+    width: 370px;
+    float: left;
+    display: inline-block;
+}
+
+.articles-responsives{
+    width: 1110px;
+}
+
+.text-sm-center{
+    text-align: left;
+}
+
+
+/** MEDIUM DISPLAY **/
 @media (max-width: 768px) {
+
+
+    .articles-responsives-scroll{
+        max-width:100%;
+        overflow-x: scroll;
+    }
+
+    #article-principal{
+        margin-top:80px;
+    }
+
+    .p-100-to-25{
+        padding: 25px;
+    }
+
+    .container-xl{
+        width:100%;
+        background-image: none !important;
+        background-color: #F2F2FA;
+    }
+    
+    .text-sm-center{
+        text-align: center;
+    }
 
     .bg-video-sm{
         display: block;

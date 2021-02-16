@@ -23,3 +23,5 @@
     function lang($str){
         return str_ireplace(array("\r","\n",'\r','\n'),'', $str);
     }
+
+    define('API', 'http://127.0.0.1:8000/api/');
