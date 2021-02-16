@@ -3,7 +3,7 @@
 </div>
 <img src="<?php echo $post['thumbnail']; ?>" class="img-fluid d-block d-lg-none d-xl-none" style="margin-top:80px;" alt="">
 <?php }else{ ?>
-    <div style="margin-top:80px;"></div>
+    <div style="margin-top:150px;"></div>
 <?php } ?>
 
 <div class="" style="margin-bottom:75px;margin-top:75px;">

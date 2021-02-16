@@ -14,7 +14,7 @@
         
         </h5>
 
-        <div class="articles-responsives-scroll">
+        <div class="articles-responsives-scroll" style="min-height:350px">
             <div class="articles-responsives">
                 <div class="rows text-sm-center" id="articles-response" page="" prev="1" next="1" skip="">
                     
@@ -22,11 +22,12 @@
             </div>
         </div>
 
-        <div class="text-center m-t-50">
-            <a href="./artigos_lista.php" class="btn btn-action">MAIS ARTIGOS</a>
-        </div>
-    
+    <div class="text-center m-t-50">
+        <a href="./artigos_lista.php" class="btn btn-action">MAIS ARTIGOS</a>
+    </div>
+
 </div>
+
 
 <button href="#body" class="btn btn-action scroll-link btn-back-top" style="display: inline-block;">Back to top</button>
 
