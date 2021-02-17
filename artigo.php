@@ -3,7 +3,8 @@
 
     if(isset($_GET['id'])){
         $id = $_GET['id'];
-        $post = json_decode(file_get_contents(API.'api/post/'.$id), true);
+        $post = json_decode(file_get_contents(API.'post/'.$id), true);
+
         
     }else{
         echo "Artigo não encontrado!";
