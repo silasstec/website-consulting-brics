@@ -13,6 +13,8 @@
                     </div>
                     <div class="col-12">
 
+                        <p style="margin-bottom:35px;"><?php echo $lang['servicos']['inc1']; ?></p>
+
                         <blockquote class="md-center"  data-aos="fade-right">
 
                             <?php echo $lang['servicos']['estrategia']; ?>
@@ -52,6 +54,9 @@
                     </svg>
                     </div>
                     <div class="col-12 col-lg-10 col-xl-10">
+
+                        
+
                         <blockquote class="md-center"  data-aos="fade-left">
 
                             <?php echo $lang['servicos']['sustentabilidade']; ?>
@@ -66,7 +71,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-    
+                        
+                        <p  style="margin-bottom:35px;"><?php echo $lang['servicos']['inc2']; ?></p>
+
                         <blockquote class="md-center" data-aos="fade-right">
     
                             <?php echo $lang['servicos']['tecnologia']; ?>

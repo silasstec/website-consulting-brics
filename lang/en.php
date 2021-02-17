@@ -104,6 +104,9 @@ $lang['homepage']['contato']['h2'] = 'Contacts us';
 $lang['servicos']['h5'] = 'ABOUT US';
 $lang['servicos']['h1'] = 'What do we do?';
 
+$lang['servicos']['inc1'] = "As our main areas of atuação são a <strong> Strategy, Inovação e Sustentabilidade: </strong>";
+$lang['servicos']['inc2'] = "We even provide services to the <strong> Technology </strong> area through a partnership with a <strong> Silastec company: </strong>";
+
 $lang['servicos']['estrategia'] = '<h2 class="font-philosopher pt-28 color-blue we-700 m-b-50">Strategy and Innovation</h2>
 
 <strong class="upper we-500 color-orange pt-13">Business Development and Ideas</strong>
