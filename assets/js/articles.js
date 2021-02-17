@@ -118,6 +118,7 @@ function load_articles_infinite(page, limit, element_callback, skip, type){
 
                 if(res.next_page_url!==null){
                     $(element_callback).attr("next", res.next_page_url)
+                    //$('.infinite-more-link').attr('href', res.next_page_url);
                 }else{
                     $(element_callback).attr("next", res.current_page)
                 }

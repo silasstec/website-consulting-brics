@@ -1,4 +1,4 @@
-<div class="container m-b-50" style="margin-top:160px;" id="ajax-scroll">
+<div class="container m-b-50 ajax-scroll" style="margin-top:160px;" id="ajax-scroll">
     
     <h5 class="upper we-700 color-blue m-b-25 pt-14">VOLTAR</h5>
 
@@ -12,7 +12,9 @@
 
 </div>
 
-<a class="infinite-more-link" onclick="load_articles_infinite($('#articles-response').attr('next'), 9, '#articles-response', $('#articles-response').attr('skip'));">LINK</a>
+<div id="last-item" num="0"></div>
+
+<a class="infinite-more-link">LINK</a>
 
 <button href="#body" class="btn btn-action scroll-link btn-back-top show-back-to-top" style="display: inline-block;">Back to top</button>
 
@@ -57,6 +59,37 @@
     });
 
     
+</script>
 
+
+
+<script src="./node_modules/infinite-scroll/dist/infinite-scroll.pkgd.js"></script>
+
+<script>
+
+
+
+    var $container = $('#articles-response').infiniteScroll({
+
+        path: function(){
+            var num = parseInt($('#last-item').attr('num'))
+            $('#last-item').attr('num', num+1)
+            console.log('https://adm.consultingbrics.com/api/posts/www.consultingbrics.com/9/0?page='+num)
+            return 'https://adm.consultingbrics.com/api/posts/www.consultingbrics.com/9/0?page='+num;
+        },
+
+        // disable history
+        history: false,
+        });
+
+        $container.on( 'load.infiniteScroll', function( event, body ) {
+        // body is JSON, put that data into template
+        let itemsHTML = template.compile( body );
+        // convert to jQuery object
+        let $items = $( itemsHTML );
+        // append items
+        $container.append( $items );
+
+    });
 
 </script>
