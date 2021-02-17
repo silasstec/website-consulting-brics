@@ -1,11 +1,11 @@
-
+const API = 'https://adm.consultingbrics.com/api/'
 // Artigos
 function load_articles(page, limit, element_callback, skip, type){
 
     $('#articles-response').attr('skip', skip);
 
     if(page==1){
-        var api = "http://127.0.0.1:8000/api/posts/www.consultingbrics.com/"+limit+'/'+skip;
+        var api = API+"posts/www.consultingbrics.com/"+limit+'/'+skip;
     }else{
         if(page!=='undefined'){
             var api = page
@@ -79,7 +79,7 @@ function load_articles_infinite(page, limit, element_callback, skip, type){
     $('#articles-response').attr('skip', skip);
 
     if(page==1){
-        var api = "http://127.0.0.1:8000/api/posts/www.consultingbrics.com/"+limit+'/'+skip;
+        var api = API+"posts/www.consultingbrics.com/"+limit+'/'+skip;
     }else{
         if(page!=='undefined'){
             var api = page
