@@ -2,6 +2,8 @@ const API = 'https://adm.consultingbrics.com/api/'
 // Artigos
 function load_articles(page, limit, element_callback, skip, type){
 
+
+
     $('#articles-response').attr('skip', skip);
 
     if(page==1){
@@ -54,7 +56,7 @@ function load_articles(page, limit, element_callback, skip, type){
                 $(element_callback).html('');
                 $(element_callback).html(col);
 
-                $(element_callback).attr("page", res.current_page)
+                
 
                 if(res.prev_page_url!==null){
                     $(element_callback).attr("prev", res.prev_page_url)
@@ -76,6 +78,8 @@ function load_articles(page, limit, element_callback, skip, type){
 // Artigos
 function load_articles_infinite(page, limit, element_callback, skip, type){
 
+    
+
     $('#articles-response').attr('skip', skip);
 
     if(page==1){
@@ -89,6 +93,11 @@ function load_articles_infinite(page, limit, element_callback, skip, type){
         url: api,
         method: "get",
         success: function(res){
+            
+            $(element_callback).attr("page", '')
+            $(element_callback).attr("prev", '')
+            $(element_callback).attr("next", '')
+
             console.log('articles:', res);
 
                 var col = ''
