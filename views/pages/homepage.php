@@ -335,10 +335,6 @@
                                 <div class="divider bg-blue m-t-15 m-b-35"></div>
 
                                 <div style="padding-left: 40px;">
-                                    <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/phone.png" class="icone" >
-                                        <a href="https://wa.link/rakie9" style="color: black;">(+55) 41 3018 4148</a> 
-                                    </p>
 
                                     <p class="pt-13 we-400 line-h-24">
                                         <img src="assets/images/email.png" class="icone">
