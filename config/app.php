@@ -1,6 +1,19 @@
 <?php
 
-    
+    if(isset($_GET['bmode'])){
+
+        if(!isset($_COOKIE['bmode'])){
+            setcookie('bmode', true);
+            header('Location: index.php');
+        }else{
+            unset($_COOKIE['bmode']);
+            setcookie("bmode", "", time()-3600);
+            header('Location: index.php');
+        }
+
+    }
+
+    $imode = (isset($_COOKIE['bmode']))?'bmode/':'';
 
     if(!isset($_COOKIE['lang'])){
         setcookie('lang','pt');

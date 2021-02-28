@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
+
 body, html, header {
     height: 100%;
     min-height: 100%;
@@ -108,6 +109,7 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
 .color-blue-50{color:#8080C9;}
 .color-blue-40{color:#9999D4;}
 .color-blue-5{color:#F2F2FA;}
+.color-black{color: #000;}
 
 .bg-blue{background-color:#000094;}
 .bg-blue-50{background-color:#8080C9;}
@@ -770,6 +772,10 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
 
 .text-sm-center{
     text-align: left;
+}
+
+.artigo{
+    background-color:#F2F2FA;
 }
 
 

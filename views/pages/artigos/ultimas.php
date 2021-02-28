@@ -2,15 +2,15 @@
     
         <h5 class="upper we-700 color-blue m-b-25 pt-14">artigos recentes 
         
-        <a href="javascript:void(0)"
-        onclick="load_articles($('#articles-response').attr('prev'), 3, '#articles-response', $('#articles-response').attr('skip'));">
-            <img src="./assets/images/arrow-left.png" alt="" style="margin-left:15px;margin-right:10px">
-        </a>
+            <a href="javascript:void(0)"
+            onclick="load_articles($('#articles-response').attr('prev'), 3, '#articles-response', $('#articles-response').attr('skip'));">
+                <img src="./assets/images/arrow-left.png" alt="" style="margin-left:15px;margin-right:10px">
+            </a>
 
-        <a href="javascript:void(0)"
-        onclick="load_articles($('#articles-response').attr('next'), 3, '#articles-response', $('#articles-response').attr('skip'));">
-            <img src="./assets/images/arrow-right.png" alt="">
-        </a>
+            <a href="javascript:void(0)"
+            onclick="load_articles($('#articles-response').attr('next'), 3, '#articles-response', $('#articles-response').attr('skip'));">
+                <img src="./assets/images/arrow-right.png" alt="">
+            </a>
         
         </h5>
 
@@ -31,7 +31,7 @@
 
 <button href="#body" class="btn btn-action scroll-link btn-back-top" style="display: inline-block;">Back to top</button>
 
-<script src="./assets/js/articles.js"></script>
+<script src="./assets/js/articles.js?1"></script>
 <script>
     load_articles(1, 3, '#articles-response', <?php echo $post['id']??0; ?>, true);
 </script>

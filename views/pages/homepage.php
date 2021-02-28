@@ -1,3 +1,4 @@
+      
         <div class="bg-white" style="padding-top: 100px;margin-top: -100px;">
 
             <div class="text-center  d-block d-md-none d-lg-none d-xl-none m-b-50" style="margin-top:-25px;">
@@ -29,12 +30,12 @@
                                                 <img class="card-img" src="assets/images/elenice.png">
                                                 <div class="card-body">
                         
-                                                        <img src="assets/images/linkedin-btn.png" align="left" class="linkedin">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn.png" align="left" class="linkedin">
                                                         <p class="name md-center">    
                                                             Elenice Cândido da Silva<br>
                                                             <small>• <?php echo $lang['homepage']['sobre']['cargo_elenice']; ?></small>
                                                         </p>
-                                                        <img src="assets/images/linkedin-btn-sm.png" class="linkedin-sm">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.png" class="linkedin-sm">
                                                         
                                                 </div>
                                             </div>
@@ -53,12 +54,12 @@
                                                 <img class="card-img" src="assets/images/antonio.png">
                                                 <div class="card-body">
                                                     
-                                                        <img src="assets/images/linkedin-btn.png" align="left" class="linkedin">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn.png" align="left" class="linkedin">
                                                         <p class="name md-center">    
                                                             Antonio Insana<br>
                                                             <small>• <?php echo $lang['homepage']['sobre']['cargo_antonio']; ?></small>
                                                         </p>
-                                                        <img src="assets/images/linkedin-btn-sm.png" class="linkedin-sm">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.png" class="linkedin-sm">
             
                                                 </div>
                                             </div>
@@ -78,7 +79,7 @@
 
                             <!-- SVG -->
 
-                                <img src="assets/images/elipses-titles.png" class="m-t-45 no-sm" style="position: absolute; right:0px;margin-top:-10px;">
+                                <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 no-sm" style="position: absolute; right:0px;margin-top:-10px;">
 
                                 <div class="color-orange we-300 pt-13"><?php echo $lang['homepage']['sobre']['h5']; ?></div>
                                 
@@ -106,7 +107,7 @@
 
                     
                     <img src="assets/images/elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: 0px;">
-                    <img src="assets/images/elipses_quemsomos.png" class="elipses d-none d-lg-block d-xl-block d-md-block">
+                    <img src="assets/images/<?php echo $imode; ?>elipses_quemsomos.png" class="elipses d-none d-lg-block d-xl-block d-md-block">
 
                 </div>
             </div>
@@ -125,9 +126,9 @@
 
                                 <div class="autor text-right upper we-300 md-center">
                                     <div>
-                                        <img src="assets/images/assinatura.png" class="img-fluid" alt="">
+                                        <img src="assets/images/<?php echo $imode; ?>assinatura.png" class="img-fluid" alt="">
                                     </div>
-                                    <div style="width:18px;border-bottom:solid 1px #000;position:absolute;right:180px;margin-top:15px;"></div> Elenice Cândido
+                                    <div style="width:18px;border-bottom:solid 1px #000;position:absolute;right:180px;margin-top:15px;" id="traco"></div> Elenice Cândido
                                 </div>
 
                                 <div class="fecha-aspas font-philosopher color-blue pt-150 aspas">”</div>
@@ -193,7 +194,7 @@
                         </div>
                     </div>  
 
-                    <img src="assets/images/elipses-titles.png" class="elipses d-block d-lg-none d-xl-none img-center m-t-45 no-sm">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="elipses d-block d-lg-none d-xl-none img-center m-t-45 no-sm">
                     
                    
 
@@ -201,7 +202,7 @@
 
             </div>
 
-            <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F2F2FA" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,176C384,171,480,181,576,197.3C672,213,768,235,864,224C960,213,1056,171,1152,144C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+            <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path <?php if(isset($_COOKIE['bmode'])){ echo 'fill="#252525"'; }else{ echo 'fill="#F2F2FA"'; } ?> fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,176C384,171,480,181,576,197.3C672,213,768,235,864,224C960,213,1056,171,1152,144C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
             
             <div id="servicos" class="bg-blue-5">
                 
@@ -221,7 +222,7 @@
                             <a href="servicos.html#tecnologia" style="text-decoration:none;">
 
                                 <div class="servico radius-15" data-aos="fade-up">
-                                    <img src="assets/images/icone-estrategia.png" class="icone">
+                                    <img src="assets/images/<?php echo $imode; ?>icone-estrategia.png" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
 
@@ -233,7 +234,7 @@
                                             <?php echo $lang['homepage']['servicos']['item1']['descricao']; ?>
 
                                             <div class="text-right m-t-10">
-                                                <img src="assets/images/seta-para-direita.png" style="width: 30px;" alt="">
+                                                <img src="assets/images/<?php echo $imode; ?>seta-para-direita.png" style="width: 30px;" alt="">
                                             </div>
                                             
                                         </div>
@@ -251,7 +252,7 @@
                             <a href="servicos.html#tecnologia" style="text-decoration:none;">
 
                                 <div class="servico radius-15">
-                                    <img src="assets/images/icone-sustentabilidade.png" class="icone">
+                                    <img src="assets/images/<?php echo $imode; ?>icone-sustentabilidade.png" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
 
@@ -263,7 +264,7 @@
                                             <?php echo $lang['homepage']['servicos']['item2']['descricao']; ?>
 
                                             <div class="text-right m-t-10">
-                                                <img src="assets/images/seta-para-direita.png" style="width: 30px;" alt="">
+                                                <img src="assets/images/<?php echo $imode; ?>seta-para-direita.png" style="width: 30px;" alt="">
                                             </div>
                                             
                                         </div>
@@ -281,7 +282,7 @@
                             <a href="servicos.html#tecnologia"style="text-decoration:none;">
 
                                 <div class="servico radius-15">
-                                    <img src="assets/images/icone-tecnologia.png" class="icone">
+                                    <img src="assets/images/<?php echo $imode; ?>icone-tecnologia.png" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
 
@@ -293,7 +294,7 @@
                                             <?php echo $lang['homepage']['servicos']['item3']['descricao']; ?>
 
                                             <div class="text-right m-t-10">
-                                                <img src="assets/images/seta-para-direita.png" style="width: 30px;" alt="">
+                                                <img src="assets/images/<?php echo $imode; ?>seta-para-direita.png" style="width: 30px;" alt="">
                                             </div>
                                             
                                         </div>
@@ -306,9 +307,9 @@
 
                     </div>
 
-                    <img src="assets/images/elipses-titles.png" class="m-t-45 d-none d-lg-block d-xl-block" style="margin-top:-30px;margin-bottom:25px;margin-left:-50px;">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 d-none d-lg-block d-xl-block" style="margin-top:-30px;margin-bottom:25px;margin-left:-50px;">
 
-                    <img src="assets/images/elipses-titles.png" class="m-t-45 img-center d-block d-lg-none d-xl-none" style="margin-top:-30px;margin-bottom:50px;">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 img-center d-block d-lg-none d-xl-none" style="margin-top:-30px;margin-bottom:50px;">
 
                 </div>
             </div>
@@ -336,17 +337,17 @@
 
                                 <div style="padding-left: 40px;">
                                     <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/phone.png" class="icone" >
-                                        <a href="https://wa.link/rakie9" style="color: black;">(+55) 41 3018 4148</a> 
+                                        <img src="assets/images/<?php echo $imode; ?>phone.png" class="icone" >
+                                        <a href="https://wa.link/rakie9" class="color-black">(+55) 41 3018 4148</a> 
                                     </p>
 
                                     <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/email.png" class="icone">
-                                        <a href="mailto:contactus@consultingbrics.com" style="color: black;">contactus@consultingbrics.com</a> 
+                                        <img src="assets/images/<?php echo $imode; ?>email.png" class="icone">
+                                        <a href="mailto:contactus@consultingbrics.com" class="color-black">contactus@consultingbrics.com</a> 
                                     </p>
 
                                     <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/location.png" class="icone" style="margin-top: -3px;">
+                                        <img src="assets/images/<?php echo $imode; ?>location.png" class="icone" style="margin-top: -3px;">
                                         Rua Reinaldo Schaffenberg de Quadros, 308<br>
                                         Sala 4, Alto da XV - 80045 -070<br>
                                         Curitiba (PR)<br>
@@ -361,24 +362,42 @@
                     <div>
                         <img src="assets/images/elipses_contacto.png" class="elipses d-none d-md-block d-lg-none d-xs-none">
                         
-                        <svg style="position:absolute;margin-left:-150px;margin-top:-130px;" id="svgcirclelinebottom" width="700px" height="300px" class="circle d-none d-lg-block d-xl-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 678 247" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
-                            <style>
-                                <![CDATA[#e11fc7imikvsq2_to {animation: e11fc7imikvsq2_to__to 18000ms linear infinite normal forwards}@keyframes e11fc7imikvsq2_to__to { 0% {offset-distance: 0%} 10% {offset-distance: 14.285714%} 23.333333% 
-                                {offset-distance: 28.571429%} 33.333333% {offset-distance: 42.857143%} 50% {offset-distance: 57.142857%} 63.333333% {offset-distance: 71.428571%} 83.333333% {offset-distance: 85.714286%} 100% {offset-distance: 100%} }]]>
-                            </style>
-                            <g id="e11fc7imikvsq2_to" style="offset-path:path('M16,16.992204C37.733501,45.313492,56.930083,170.457148,146.417093,199.291088Q226.403421,238.066955,459.955441,182.225951Q508.653239,163.388357,572.267348,179.285848Q606.258791,192.201359,644,215.155096Q546.721720,148.099826,457.303506,182.813972Q242.421135,239.242997,147.122717,198.249509Q80.427344,186.615166,16,16.992204');offset-rotate:0deg">
-                                <circle id="e11fc7imikvsq2" r="12" transform="translate(0,-0.000004)" fill="rgb(0,0,148)" stroke="none" stroke-width="1"/>
-                            </g>
-                        <circle id="e11fc7imikvsq3" r="16" transform="matrix(1 0 0 1 16 16.99220000000000)" fill="rgb(0,0,148)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
-                        <path id="e11fc7imikvsq4" d="M23.500000,30.992200C55.666700,94.325500,70.100000,228.792000,266.500000,213.992000C512,195.492000,489,128.992000,643.500000,213.992000" fill="none" stroke="rgb(0,0,148)" stroke-width="1"/>
-                        </svg>
+                        <?php if(isset($_COOKIE['bmode'])){ ?>
+
+                            <svg style="position:absolute;margin-left:-150px;margin-top:-130px;" id="svgcirclelinebottom" width="700px" height="300px" class="circle d-none d-lg-block d-xl-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 678 247" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                                <style>
+                                    <![CDATA[#e11fc7imikvsq2_to {animation: e11fc7imikvsq2_to__to 18000ms linear infinite normal forwards}@keyframes e11fc7imikvsq2_to__to { 0% {offset-distance: 0%} 10% {offset-distance: 14.285714%} 23.333333% 
+                                    {offset-distance: 28.571429%} 33.333333% {offset-distance: 42.857143%} 50% {offset-distance: 57.142857%} 63.333333% {offset-distance: 71.428571%} 83.333333% {offset-distance: 85.714286%} 100% {offset-distance: 100%} }]]>
+                                </style>
+                                <g id="e11fc7imikvsq2_to" style="offset-path:path('M16,16.992204C37.733501,45.313492,56.930083,170.457148,146.417093,199.291088Q226.403421,238.066955,459.955441,182.225951Q508.653239,163.388357,572.267348,179.285848Q606.258791,192.201359,644,215.155096Q546.721720,148.099826,457.303506,182.813972Q242.421135,239.242997,147.122717,198.249509Q80.427344,186.615166,16,16.992204');offset-rotate:0deg">
+                                    <circle id="e11fc7imikvsq2" r="12" transform="translate(0,-0.000004)" fill="rgb(127, 127, 201)" stroke="none" stroke-width="1"/>
+                                </g>
+                            <circle id="e11fc7imikvsq3" r="16" transform="matrix(1 0 0 1 16 16.99220000000000)" fill="rgb(127, 127, 201)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
+                            <path id="e11fc7imikvsq4" d="M23.500000,30.992200C55.666700,94.325500,70.100000,228.792000,266.500000,213.992000C512,195.492000,489,128.992000,643.500000,213.992000" fill="none" stroke="rgb(127, 127, 201)" stroke-width="1"/>
+                            </svg>
+
+                        <?php }else{ ?>
+                        
+                            <svg style="position:absolute;margin-left:-150px;margin-top:-130px;" id="svgcirclelinebottom" width="700px" height="300px" class="circle d-none d-lg-block d-xl-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 678 247" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                                <style>
+                                    <![CDATA[#e11fc7imikvsq2_to {animation: e11fc7imikvsq2_to__to 18000ms linear infinite normal forwards}@keyframes e11fc7imikvsq2_to__to { 0% {offset-distance: 0%} 10% {offset-distance: 14.285714%} 23.333333% 
+                                    {offset-distance: 28.571429%} 33.333333% {offset-distance: 42.857143%} 50% {offset-distance: 57.142857%} 63.333333% {offset-distance: 71.428571%} 83.333333% {offset-distance: 85.714286%} 100% {offset-distance: 100%} }]]>
+                                </style>
+                                <g id="e11fc7imikvsq2_to" style="offset-path:path('M16,16.992204C37.733501,45.313492,56.930083,170.457148,146.417093,199.291088Q226.403421,238.066955,459.955441,182.225951Q508.653239,163.388357,572.267348,179.285848Q606.258791,192.201359,644,215.155096Q546.721720,148.099826,457.303506,182.813972Q242.421135,239.242997,147.122717,198.249509Q80.427344,186.615166,16,16.992204');offset-rotate:0deg">
+                                    <circle id="e11fc7imikvsq2" r="12" transform="translate(0,-0.000004)" fill="rgb(0,0,148)" stroke="none" stroke-width="1"/>
+                                </g>
+                            <circle id="e11fc7imikvsq3" r="16" transform="matrix(1 0 0 1 16 16.99220000000000)" fill="rgb(0,0,148)" fill-opacity="0.5" stroke="none" stroke-width="1"/>
+                            <path id="e11fc7imikvsq4" d="M23.500000,30.992200C55.666700,94.325500,70.100000,228.792000,266.500000,213.992000C512,195.492000,489,128.992000,643.500000,213.992000" fill="none" stroke="rgb(0,0,148)" stroke-width="1"/>
+                            </svg>
+
+                        <?php } ?>
 
                         <img src="assets/images/elipses_contactos_small.png" class="elipses d-block d-md-none d-lg-none d-xl-none" style="margin-top:50px">
                         
                     </div>
                     <a href="https://www.linkedin.com/company/consulting-brics/">
                             <div style="height: 150px;padding-top:50px;">
-                                <img class="col-persona" src="assets/images/linkedin-btn-sm.png" id="footer-linkedin">
+                                <img class="col-persona" src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.png" id="footer-linkedin">
                             </div>                            
                         </a>
                     

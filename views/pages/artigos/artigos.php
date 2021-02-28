@@ -1,6 +1,6 @@
 <div class="container m-b-50 ajax-scroll" style="margin-top:160px;" id="ajax-scroll">
     
-    <h5 class="upper we-700 color-blue m-b-25 pt-14">VOLTAR</h5>
+    <a href="/"><h5 class="upper we-700 color-blue m-b-25 pt-14" id="voltar">VOLTAR</h5></a>
 
     <div>
 

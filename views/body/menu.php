@@ -4,7 +4,7 @@
             <div class="modal-content" style="background-color: #FFF;position: fixed;width: 100%;height: 100%;padding:50px;">
 
                 <div>
-                    <img src="assets/images/menu_close.png" style="float: right;margin-top:0px;margin-right: -15px;" onclick="$('#menu-modal').modal('hide')">
+                    <img src="assets/images/<?php echo $imode; ?>menu_close.png" style="float: right;margin-top:0px;margin-right: -15px;" onclick="$('#menu-modal').modal('hide')">
                 </div>
 
                 <div class="navbar-collapse" id="navbar-menu-sm" style="margin-top:25px;">
@@ -36,7 +36,7 @@
                             <?php if($_COOKIE['lang']=='en'){ ?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.php?lang=pt">
-                                        <img src="assets/images/en.png" alt="">
+                                        <img src="assets/images/<?php echo $imode; ?>en.png" alt="">
                                         PT
                                     </a>
                                 </li>
@@ -69,10 +69,10 @@
         <nav class="navbar navbar-expand-lg navbar-default bg-default fixed-top" id="nav-top">
             <div class="container">    
                 <a class="navbar-brand h1 mb-0" href="./index.php">
-                    <img src="assets/images/logotipo.png" alt="" id="logo" class="">
+                    <img src="assets/images/<?php echo $imode; ?>logotipo.png" alt="" id="logo" class="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menu-modal">
-                    <img src="assets/images/menu2.png" alt="">
+                    <img src="assets/images/<?php echo $imode; ?>menu2.png" alt="">
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="navbar-nav ml-auto">
@@ -104,7 +104,7 @@
                             <?php if($_COOKIE['lang']=='en'){ ?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.php?lang=pt">
-                                        <img src="assets/images/en.png" alt="">
+                                        <img src="assets/images/<?php echo $imode; ?>en.png" alt="">
                                         PT
                                     </a>
                                 </li>
@@ -113,7 +113,7 @@
                             <?php if($_COOKIE['lang']=='pt'){ ?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.php?lang=en">
-                                        <img src="assets/images/en.png" alt="">
+                                        <img src="assets/images/<?php echo $imode; ?>en.png" alt="">
                                         EN
                                     </a>
                                 </li>
@@ -121,14 +121,20 @@
 
                         <?php }else{ ?>
 
-                            <li class="nav-item">
+                            <li class="nav-item xx">
                                 <a class="nav-link" href="index.php?lang=en">
-                                    <img src="assets/images/en.png" alt="">
+                                    <img src="assets/images/<?php echo $imode; ?>en.png" alt="">
                                     EN
                                 </a>
                             </li>
 
                         <?php } ?>
+
+                        <li class="nav-item xx" style="padding-left:0px;">
+                            <a class="nav-link" href="index.php?bmode=true">
+                                <img src="assets/images/<?php echo $imode; ?>darkmode-btn.png" alt="">
+                            </a>
+                        </li>
 
                     </ul>
                 </div>

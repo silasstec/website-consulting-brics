@@ -39,7 +39,7 @@ function load_articles(page, limit, element_callback, skip, type){
                     col += '<div class="cols"><div style="'+style+'" n="'+i+'">';
                     col += '    <a href="./artigo.php?id='+value.id+'">'
                     if(value.thumbnail==null){
-                        col += '        <div style="background-color:#F2F2FA;margin-bottom:50px;min-height:300px;padding-top:50px;padding-bottom:50px;padding-left:25px;padding-right:25px;" class="text-center"><h5 class="font-philosopher we-700 color-blue pt-18">'+value.title+'</h5></div>';
+                        col += '        <div style="margin-bottom:50px;min-height:300px;padding-top:50px;padding-bottom:50px;padding-left:25px;padding-right:25px;" class="text-center artigo"><h5 class="font-philosopher we-700 color-blue pt-18">'+value.title+'</h5></div>';
                     }else{
                         col += '        <img src="'+value.thumbnail+'" class="img-fluid m-b-15"  alt="">';
                         col += '        <h5 class="font-philosopher we-700 color-blue pt-18 text-sm-center m-b-50">'+value.title+'</h5>';
@@ -105,7 +105,7 @@ function load_articles_infinite(page, limit, element_callback, skip, type){
                     col += '<div class="col-lg-4">';
                     col += '    <a href="./artigo.php?id='+value.id+'">'
                     if(value.thumbnail==null){
-                        col += '        <div style="margin-bottom:50px;background-color:#F2F2FA;min-height:300px;padding-top:50px;padding-bottom:50px;padding-left:25px;padding-right:25px;" class="text-center"><h5 class="font-philosopher we-700 color-blue pt-18">'+value.title+'</h5></div>';
+                        col += '        <div style="margin-bottom:50px;min-height:300px;padding-top:50px;padding-bottom:50px;padding-left:25px;padding-right:25px;" class="text-center artigo"><h5 class="font-philosopher we-700 color-blue pt-18">'+value.title+'</h5></div>';
                     }else{
                         col += '        <img src="'+value.thumbnail+'" class="img-fluid m-b-25"  alt="">';
                         col += '        <h5 class="font-philosopher we-700 color-blue pt-18" style="margin-bottom:50px;">'+value.title+'</h5>';
