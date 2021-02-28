@@ -336,13 +336,6 @@
                                 <div class="divider bg-blue m-t-15 m-b-35"></div>
 
                                 <div style="padding-left: 40px;">
-<<<<<<< HEAD
-                                    <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/<?php echo $imode; ?>phone.png" class="icone" >
-                                        <a href="https://wa.link/rakie9" class="color-black">(+55) 41 3018 4148</a> 
-                                    </p>
-=======
->>>>>>> 9e3d6a94a35c8e625661c89e16335fa5604e498d
 
                                     <p class="pt-13 we-400 line-h-24">
                                         <img src="assets/images/<?php echo $imode; ?>email.png" class="icone">
