@@ -14,7 +14,7 @@ $lang['menu']['servicos'][3] = 'TECNOLOGIA';
 
 /** FOOTER **/
 
-$lang['footer']['text'] = '2020 © Consulting Brics. Todos os direitos reservados. Desenvolvido por <a href="https://www.silastec.com" style="color:white; font-weight:900;">SilasTec</a>';
+$lang['footer']['text'] = '';
 $lang['footer']['legal'] = 'INFORMAÇÃO LEGAL';
 
 /** END FOOTER**/
@@ -188,35 +188,16 @@ $lang['servicos']['tecnologia'] = '<h2 class="font-philosopher pt-28 color-blue 
 </strong>
 <p class="pt-13 we-400">
 
-    Seguindo a procura crescente de tecnologias e inteligência na indústria 4.0, 
-    fornecemos aos nossos clientes uma nova forma de utilizar os dados gerados 
-    por dispositivos IoT. 
+    Prestamos serviços de consultoria de inovação. Estrategicamente, é fundamental
+que parte significativa da inovação de uma empresa passe pela tecnologia que tem
+ao seu dispor. É precisamente isso que oferecemos: competências tecnológicas
+especializadas e diversificadas.
     <br><br>
-    Assim, conseguimos reduzir custos e aumentar a produtividade, trazendo-lhe o poder 
-    de modernizar o seu negócio, com a facilidade de acompanhar todos os processos em 
-    tempo real, quase como se tivesse a sua empresa na palma da mão.
-
-</p>
-
-<strong class="upper we-500 color-orange pt-13">
-    Machine Learning + Data Science (BI)
-</strong>
-<p class="pt-13 we-400">
-    Dispomos do conhecimento e capacidade para efetuar a análise de dados complexos, 
-    em comparação com dados meteorológicos de oxidação do solo e de nível pluviométrico.
-    <br><br>
-    Integrando sempre com os dados do seu negócio, traçamos uma trajetória cronológica, 
-    possibilitando melhorias e estimativas mais aproximadas para o futuro da sua empresa.
-</p>
-
-<strong class="upper we-500 color-orange pt-13">
-    Engineering + IOT + Machine Learning
-</strong>
-<p class="pt-13 we-400">
-    Temos a capacidade de criar, de forma única, dispositivos integrados com Machine Learning 
-    e Inteligência Artificial (IA). Através destas tecnologias, desenvolvemos projetos de 
-    implementação como uma fazenda inteligente ou um sistema de produção avançado, que 
-    trará vantagens sustentáveis e tecnológicas ao seu negócio. 
+    A nossa versátil e flexível abordagem a cada cliente e respetivo tipo de negócio é a
+essência da forma personalizada com que a Consulting Brics atua. Para diferentes
+projetos, diferentes estratégias. O resultado é benéfico: desenvolvimento de projetos
+diferenciados e feitos à medida, com base nas mais inovadoras Tecnologias da
+Informação.
 </p>';
 
 /** END SERVIÇOS **/
