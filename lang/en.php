@@ -171,40 +171,20 @@ is a powerful tool to improve and enhance your development and reputation in the
 </p>';
 
 $lang['servicos']['tecnologia'] = '<h2 class="font-philosopher pt-28 color-blue we-700 m-b-50">Technology</h2>
-
-<strong class="upper we-500 color-orange pt-13">
-    IOT (Internet Of Things)    
-</strong>
 <p class="pt-13 we-400">
 
-    Following the growing demand for technologies and intelligence in industry 4.0,
-    we provide our customers a new way to use the data generated
-    by IoT devices. 
+   We provide innovation consulting services. Strategically, it is fundamental that a
+significant part of a company\'s innovation passes through the technology at its
+disposal. That is exactly what we offer: specialized and diversified technological
+competencies.
+ 
     <br><br>
 
-    Thus, we managed to reduce costs and increase productivity, bringing you the power to modernize your business with the ease of monitoring
-all processes in real-time, almost as if you had your company in the palm of your hand.
+    Our versatile and flexible approach to each client and its type of business is the
+essence of the personalized way of how Consulting Brics operates. For different
+projects, different strategies. The result is beneficial: development of differentiated
+and tailor-made projects based on the most innovative IT.
 
-</p>
-
-<strong class="upper we-500 color-orange pt-13">
-    Machine Learning + Data Science (BI)
-</strong>
-<p class="pt-13 we-400">
-    We have the knowledge and ability to perform complex data analysis,
-    compared to meteorological data of soil oxidation and rainfall.
-    <br><br>
-    Through your business data, we trace a chronological trajectory that aims to allow improvements
-and more approximate estimates for the future of your company.
-</p>
-
-<strong class="upper we-500 color-orange pt-13">
-    Engineering + IOT + Machine Learning
-</strong>
-<p class="pt-13 we-400">
-    We have the ability to create, in a unique way, devices integrated with Machine Learning and 
-Artificial Intelligence (AI). Using these technologies, we develop implementation projects like a 
-smart farm or an advanced production system, which will bring sustainable and technological advantages to your business.
 </p>';
 
 /** END Services **/
