@@ -183,9 +183,6 @@ $lang['servicos']['sustentabilidade'] = '<h2 class="font-philosopher pt-28 color
 
 $lang['servicos']['tecnologia'] = '<h2 class="font-philosopher pt-28 color-blue we-700 m-b-50">Tecnologia</h2>
 
-<strong class="upper we-500 color-orange pt-13">
-    IOT (Internet Das Coisas)    
-</strong>
 <p class="pt-13 we-400">
 
     Prestamos serviços de consultoria de inovação. Estrategicamente, é fundamental
