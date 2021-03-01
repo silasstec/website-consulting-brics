@@ -14,7 +14,7 @@ $lang['menu']['servicos'][3] = 'Technology';
 
 /** FOOTER **/
 
-$lang['footer']['text'] = '2020 © Consulting Brics. All rights reserved. Developed By <a href="https://www.silastec.com" style="color:white; font-weight:900;">SilasTec</a>';
+$lang['footer']['text'] = '';
 $lang['footer']['legal'] = 'LEGAL INFORMATION';
 
 /** END FOOTER**/
