@@ -14,7 +14,7 @@ $lang['menu']['servicos'][3] = 'Technology';
 
 /** FOOTER **/
 
-$lang['footer']['text'] = '';
+$lang['footer']['text'] = '2020 © Consulting Brics. All rights reserved. Developed By <a href="https://www.silastec.com" style="color:white; font-weight:900;">SilasTec</a>';
 $lang['footer']['legal'] = 'LEGAL INFORMATION';
 
 /** END FOOTER**/
@@ -105,7 +105,7 @@ $lang['servicos']['h5'] = 'ABOUT US';
 $lang['servicos']['h1'] = 'What do we do?';
 
 $lang['servicos']['inc1'] = "As our main areas of atuação são a <strong> Strategy, Inovação e Sustentabilidade: </strong>";
-$lang['servicos']['inc2'] = "We even provide services to the <strong> Technology </strong> area through a partnership with a <strong> Silastec company: </strong>";
+$lang['servicos']['inc2'] = "";
 
 $lang['servicos']['estrategia'] = '<h2 class="font-philosopher pt-28 color-blue we-700 m-b-50">Strategy and Innovation</h2>
 
