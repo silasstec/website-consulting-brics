@@ -111,19 +111,16 @@
                             <div class="col-lg-6 p-r"></div>
                             <div class="col-lg-6 p-l">
                                 <h5 class="font-philosopher color-orange pt-38">2014 <div class="circle-l size-28"></div></h5>
-                                <p><strong>Fundação da Empresa</strong><br>
-                                Importações e Exportações<br>
-                                Eventos<br>
-                                Feiras</p>
+                                
+                                <?php echo $lang['homepage']['timeline']['2014']; ?>
                             </div>
                         </div>
 
                         <div class="row justify-content-center" data-aos="fade-up">
                             <div class="col-lg-6 text-lg-right p-r">
                                 <h5 class="font-philosopher color-orange pt-38">2015 <div class="circle-r size-22"></div></h5>
-                                <p>Eventos<br>
-                                Feiras<br>
-                                Assessoria Comercial na America Latina</p>
+                                
+                                <?php echo $lang['homepage']['timeline']['2015']; ?>
                             </div>
                             <div class="col-lg-6 p-l"></div>
                         </div>
@@ -132,16 +129,16 @@
                             <div class="col-lg-6 p-r"></div>
                             <div class="col-lg-6 p-l">
                                 <h5 class="font-philosopher color-orange pt-38">2016 <div class="circle-l size-28"></div></h5>
-                                <p>Aconselhamento de Negócios na Europa Media</p>
+                                
+                                <?php echo $lang['homepage']['timeline']['2016']; ?>
                             </div>
                         </div>
 
                         <div class="row justify-content-center" data-aos="fade-up">
                             <div class="col-lg-6 text-lg-right p-r">
                                 <h5 class="font-philosopher color-orange pt-38">2017 <div class="circle-r size-22"></div></h5>
-                                <p><strong>Abertura de Plataforma</strong><br>
-                                Consultoria em Visual Merchandising Sustentável<br>
-                                Marketing Digital no Mercado Europeu</p>
+                                
+                                <?php echo $lang['homepage']['timeline']['2017']; ?>
                             </div>
                             <div class="col-lg-6 p-l"></div>
                         </div>
@@ -150,15 +147,16 @@
                             <div class="col-lg-6 p-r"></div>
                             <div class="col-lg-6 p-l">
                                 <h5 class="font-philosopher color-orange pt-38">2018 <div class="circle-l size-28"></div></h5>
-                                <p><strong>Consolidação do Mercado Europeu e Expansão do Modelo de Negócio</strong></p>
+                                
+                                <?php echo $lang['homepage']['timeline']['2018']; ?>
                             </div>
                         </div>
 
                         <div class="row justify-content-center" data-aos="fade-up">
                             <div class="col-lg-6 text-lg-right p-r">
                                 <h5 class="font-philosopher color-orange pt-38">2019 <div class="circle-r size-22"></div></h5>
-                                <p><strong>Adaptação e Planeamento</strong><br>
-                                Novo Modelo de Negócio devido às exigências do Mercado em Expansão</p>
+                                
+                                <?php echo $lang['homepage']['timeline']['2019']; ?>
                             </div>
                             <div class="col-lg-6 p-l"></div>
                         </div>
@@ -167,9 +165,8 @@
                             <div class="col-lg-6 p-r"></div>
                             <div class="col-lg-6 p-l">
                                 <h5 class="font-philosopher color-orange pt-38">2020 <div class="circle-l size-28"></div></h5>
-                                <p><strong>Rebranding da Consulting Brics</strong><br>
-                                Depois de uma atenta análise do mercado e de uma cuidadosa operação de 
-                                identidade visual, voltamos ao mercado com uma série de novos serviços de alta performance</p>
+                                
+                                <?php echo $lang['homepage']['timeline']['2020']; ?>
                             </div>
                         </div>
 

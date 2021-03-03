@@ -188,3 +188,21 @@ and tailor-made projects based on the most innovative IT.
 </p>';
 
 /** END Services **/
+
+$lang['homepage']['timeline']['2014'] = '<p><strong>Fundação da Empresa</strong><br>
+Importações e Exportações<br>
+Eventos<br>
+Feiras</p>';
+$lang['homepage']['timeline']['2015'] = '<p>Eventos<br>
+Feiras<br>
+Assessoria Comercial na America Latina</p>';
+$lang['homepage']['timeline']['2016'] = '<p>Aconselhamento de Negócios na Europa Media</p>';
+$lang['homepage']['timeline']['2017'] = '<p><strong>Abertura de Plataforma</strong><br>
+Consultoria em Visual Merchandising Sustentável<br>
+Marketing Digital no Mercado Europeu</p>';
+$lang['homepage']['timeline']['2018'] = '<p><strong>Consolidação do Mercado Europeu e Expansão do Modelo de Negócio</strong></p>';
+$lang['homepage']['timeline']['2019'] = '<p><strong>Adaptação e Planeamento</strong><br>
+Novo Modelo de Negócio devido às exigências do Mercado em Expansão</p>';
+$lang['homepage']['timeline']['2020'] = '<p><strong>Rebranding da Consulting Brics</strong><br>
+Depois de uma atenta análise do mercado e de uma cuidadosa operação de 
+identidade visual, voltamos ao mercado com uma série de novos serviços de alta performance</p>';
