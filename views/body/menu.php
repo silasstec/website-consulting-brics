@@ -3,9 +3,16 @@
             <div  class="modal-dialog">
             <div class="modal-content" style="background-color: #FFF;position: fixed;width: 100%;height: 100%;padding:50px;">
 
+
+                
                 <div>
-                    <img src="assets/images/<?php echo $imode; ?>menu_close.png" style="float: right;margin-top:0px;margin-right: -15px;" onclick="$('#menu-modal').modal('hide')">
+                    <a class="nav-link" href="index.php?bmode=true">
+                        <img src="assets/images/<?php echo $imode; ?>darkmode-btn.png" style="display:block;margin-left:auto;margin-right:auto;" alt="">
+                    </a>
+
+                    <img src="assets/images/<?php echo $imode; ?>menu_close.png" style="float: right;margin-top:-35px;margin-right: -15px;" onclick="$('#menu-modal').modal('hide')">
                 </div>
+
 
                 <div class="navbar-collapse" id="navbar-menu-sm" style="margin-top:25px;">
                     <ul class="navbar-nav ml-auto">
