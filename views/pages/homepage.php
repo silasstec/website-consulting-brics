@@ -463,7 +463,7 @@
                         <img src="assets/images/elipses_contactos_small.png" class="elipses d-block d-md-none d-lg-none d-xl-none" style="margin-top:50px">
                         
                     </div>
-                    <a href="https://www.linkedin.com/company/consulting-brics/">
+                    <a href="https://www.linkedin.com/company/consultingbrics/">
                             <div style="height: 150px;padding-top:50px;">
                                 <img class="col-persona" src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.png" id="footer-linkedin">
                             </div>                            
