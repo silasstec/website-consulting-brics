@@ -38,7 +38,7 @@
     }
 
     define('API', 'https://adm.consultingbrics.com/api/');
-    define('URL', 'http://localhost/website-consulting-brics/');
+    define('URL', 'http://consultingbrics.com/');
 
     $pages = [];
 
