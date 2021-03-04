@@ -23,7 +23,7 @@
         </div>
 
     <div class="text-center m-t-50">
-        <a href="./artigos_lista.php" class="btn btn-action">MAIS ARTIGOS</a>
+        <a href="<?php echo URL; ?>posts" class="btn btn-action">MAIS ARTIGOS</a>
     </div>
 
 </div>
@@ -31,7 +31,7 @@
 
 <button href="#body" class="btn btn-action scroll-link btn-back-top" style="display: inline-block;">Back to top</button>
 
-<script src="./assets/js/articles.js?1"></script>
+<script src="<?php echo URL; ?>assets/js/articles.js?1"></script>
 <script>
     load_articles(1, 3, '#articles-response', <?php echo $post['id']??0; ?>, true);
 </script>

@@ -1,4 +1,5 @@
-      
+        <?php require_once('views/body/header.php'); ?>
+        
         <div class="bg-white" style="padding-top: 100px;margin-top: -100px;">
 
             <div class="text-center  d-block d-md-none d-lg-none d-xl-none m-b-50" style="margin-top:-25px;">
@@ -109,7 +110,7 @@
 
                         <div class="row justify-content-center"  data-aos="fade-up">
                             <div class="col-lg-6 p-r"></div>
-                            <div class="col-lg-6 p-l">
+                            <div class="col-lg-6 p-l y2014"  data-toggle="popover" id="tl-y2014">
                                 <h5 class="font-philosopher color-orange pt-38">2014 <div class="circle-l size-28"></div></h5>
                                 
                                 <?php echo $lang['homepage']['timeline']['2014']; ?>
@@ -117,7 +118,7 @@
                         </div>
 
                         <div class="row justify-content-center" data-aos="fade-up">
-                            <div class="col-lg-6 text-lg-right p-r">
+                            <div class="col-lg-6 text-lg-right p-r" id="tl-y2015">
                                 <h5 class="font-philosopher color-orange pt-38">2015 <div class="circle-r size-22"></div></h5>
                                 
                                 <?php echo $lang['homepage']['timeline']['2015']; ?>
@@ -127,7 +128,7 @@
 
                         <div class="row justify-content-center" data-aos="fade-up">
                             <div class="col-lg-6 p-r"></div>
-                            <div class="col-lg-6 p-l">
+                            <div class="col-lg-6 p-l" id="tl-y2016">
                                 <h5 class="font-philosopher color-orange pt-38">2016 <div class="circle-l size-28"></div></h5>
                                 
                                 <?php echo $lang['homepage']['timeline']['2016']; ?>
@@ -171,6 +172,7 @@
                         </div>
 
                     </div>
+                   
 
 
                     
@@ -493,5 +495,36 @@
         }
 
     });
+
+</script>
+
+<script>
+
+    $(document).ready(function(){
+        $("#tl-y2014").popover({
+            content: '<strong>EVENTOS</strong><br><p>- Salinas Summer Show, em LongIsland, para 140 pessoas – Frankfurt, 2014<br>- Showroom CB, para 90 pessoas – São Paulo, 2014<br>- Never Ending Summer, para 160 pessoas – Frankfurt, 2014</p><strong>FEIRAS</strong><br><p>- Supreme – Munique, 2014<br>- Wäshe und mehr – Dortmund, 2014<br>- Dessous Messe – Wallau, 2014</p>',
+            html: true,
+            trigger:'hover',
+            placement : 'bottom'
+        }); 
+
+        $("#tl-y2015").popover({
+            content: '<strong>EVENTOS</strong><br><p>- Sport Magazine Bikini Gala, para 1200 pessoas – Vienna, 2015</p><br><br><strong>FEIRAS</strong><br><p>- Supreme – Munique, 2015</p><br><br><strong>ASSESSORIA COMERCIAL NA AMÉRICA LATINA</strong><br>- Lauren Moshi<br>- Schöniglich<br>- Casa di Stella<br>- Konplott<br>',
+            html: true,
+            trigger:'hover',
+            placement : 'bottom'
+        }); 
+
+        $("#tl-y2016").popover({
+            content: '<strong>ACONSELHAMENTO DE NEGÓCIOS NA EUROPA</strong><p>- Morena Rosa<br>- Kiminis<br>- Limonada<br>- Dama de Seda<br>- 2 Rios</p><br><br><strong>MEDIA</strong><p>- Todateen: com Schöniglich e Lauren Moshi<br>- Vogue Brasil Online: banner de divulgação da empresa<br>- Revista Dessous Messe<br>- Portal G1</p>',
+            html: true,
+            trigger:'hover',
+            placement : 'bottom'
+        }); 
+        
+    });
+
+    
+    
 
 </script>

@@ -820,6 +820,26 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     border-radius: 250px;
 }
 
+.popover{
+    background-color: #000094;
+    color:#FFF;
+    font-size:10pt;
+    border-radius: 0px;
+}
+
+.popover .popover-body{
+    color:#FFF;
+    font-size:10pt;
+}
+
+.bs-popover-auto[x-placement^=bottom]>.arrow::after, .bs-popover-bottom>.arrow::after{
+    border-bottom-color:#000094
+}
+
+.bs-popover-auto[x-placement^=top]>.arrow::after, .bs-popover-top>.arrow::after{
+    border-top-color:#000094
+}
+
 /** MEDIUM DISPLAY **/
 @media (max-width: 768px) {
 

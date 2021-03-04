@@ -37,7 +37,7 @@ function load_articles(page, limit, element_callback, skip, type){
                     
 
                     col += '<div class="cols"><div style="'+style+'" n="'+i+'">';
-                    col += '    <a href="./artigo.php?id='+value.id+'">'
+                    col += '    <a href="./post/'+value.id+'">'
                     if(value.thumbnail==null){
                         col += '        <div style="margin-bottom:50px;min-height:300px;padding-top:50px;padding-bottom:50px;padding-left:25px;padding-right:25px;" class="text-center artigo"><h5 class="font-philosopher we-700 color-blue pt-18">'+value.title+'</h5></div>';
                     }else{
@@ -103,7 +103,7 @@ function load_articles_infinite(page, limit, element_callback, skip, type){
                 var col = ''
                 $.each( res.data, function( index, value ) {
                     col += '<div class="col-lg-4">';
-                    col += '    <a href="./artigo.php?id='+value.id+'">'
+                    col += '    <a href="./post/'+value.id+'">'
                     if(value.thumbnail==null){
                         col += '        <div style="margin-bottom:50px;min-height:300px;padding-top:50px;padding-bottom:50px;padding-left:25px;padding-right:25px;" class="text-center artigo"><h5 class="font-philosopher we-700 color-blue pt-18">'+value.title+'</h5></div>';
                     }else{

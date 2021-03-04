@@ -1,4 +1,3 @@
-<?php require_once('config/app.php') ?>
 <!DOCTYPE html>
     <html lang="pt">
     <head>
@@ -7,12 +6,17 @@
 
         <?php require_once('views/body/head.php'); ?>
 
-        <title>Consulting Brics</title>
+        <title><?php echo $title ?? 'Consulting Brics'; ?></title>
     </head>
     <body id="body">
         <?php require_once('views/body/menu.php'); ?>
 
-        <?php require_once('views/pages/legal.php'); ?>
+        <?php 
+        
+        $post = (isset($post))?$post:'';
+        require_once($page); 
+        
+        ?>
 
         <?php require_once('views/body/footer.php'); ?>
     </body>

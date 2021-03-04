@@ -19,7 +19,7 @@
         <div class="col-lg-6 col-12 p-100 bg-blue-5 text-center text-md-center p-100-to-25">
             <h1 class="pt-28 font-philosopher we-700 m-b-25 color-blue" id="article-title"><?php echo $post['title'] ?></h1>
             <p class="m-b-50 pt-14" id="article-description"><?php echo $post['description']; ?></p>
-            <a href="./artigo.php?id=<?php echo $post['id']; ?>" id="article-link" class="btn btn-action" id="article-title">LER MAIS</a>
+            <a href="<?php echo URL; ?>post/<?php echo $post['id']; ?>" id="article-link" class="btn btn-action" id="article-title">LER MAIS</a>
         </div>
     </div>
     
