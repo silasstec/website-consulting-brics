@@ -9,6 +9,7 @@
 
         $title = $pages[$page]['title'];
         $_page = $pages[$page]['page'];
+        $keywords = $pages[$page]['keywords'];
       
         if($page=='post'){
         
@@ -29,6 +30,7 @@
 
             if(file_exists($_page)){
                 $page = $_page;
+                
                 require_once('views/body/page.php');
             }else{
                 echo "Página não encontrada!";
