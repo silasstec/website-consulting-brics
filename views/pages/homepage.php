@@ -155,7 +155,7 @@
 
                         <div class="row justify-content-center" data-aos="fade-up">
                             <div class="col-lg-6 text-lg-right p-r">
-                                <h5 class="font-philosopher color-orange pt-38">2019 <div class="circle-r size-22"></div></h5>
+                                <h5 class="font-philosopher color-orange pt-38">2020 <div class="circle-r size-22"></div></h5>
                                 
                                 <?php echo $lang['homepage']['timeline']['2019']; ?>
                             </div>
@@ -165,7 +165,7 @@
                         <div class="row justify-content-center" data-aos="fade-up">
                             <div class="col-lg-6 p-r"></div>
                             <div class="col-lg-6 p-l">
-                                <h5 class="font-philosopher color-orange pt-38">2020 <div class="circle-l size-28"></div></h5>
+                                <h5 class="font-philosopher color-orange pt-38">2021 <div class="circle-l size-28"></div></h5>
                                 
                                 <?php echo $lang['homepage']['timeline']['2020']; ?>
                             </div>
