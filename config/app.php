@@ -43,56 +43,58 @@
     $pages = [];
 
 
-    if($_COOKIE['lang']=='pt'){
+    
 
-        $pages['homepage']['title'] = 'Consulting Brics'; 
-        $pages['homepage']['keywords'] = 'esg, environment social and corporate governance'; 
-        $pages['homepage']['page'] = 'views/pages/homepage.php'; 
+    $pages['homepage']['title'] = 'Consulting Brics'; 
+    $pages['homepage']['keywords'] = 'esg, environment social and corporate governance'; 
+    $pages['homepage']['page'] = 'views/pages/homepage.php'; 
 
-        $pages['servicos']['title'] = 'Consulting Brics | Serviços'; 
-        $pages['servicos']['keywords'] = 'consultoria de desenvolvimento sustentável, consultoria de inovação, consultoria estratégica'; 
-        $pages['servicos']['page'] = 'views/pages/servicos.php'; 
+    $pages['servicos']['title'] = 'Consulting Brics | Serviços'; 
+    $pages['servicos']['keywords'] = 'consultoria de desenvolvimento sustentável, consultoria de inovação, consultoria estratégica'; 
+    $pages['servicos']['page'] = 'views/pages/servicos.php'; 
 
-        $pages['blog']['title'] = 'Consulting Brics | Blog'; 
-        $pages['blog']['keywords'] = 'inovação e sustentabilidade, inovação e desenvolvimento sustentável'; 
-        $pages['blog']['page'] = 'views/pages/artigos/index.php'; 
+    $pages['blog']['title'] = 'Consulting Brics | Blog'; 
+    $pages['blog']['keywords'] = 'inovação e sustentabilidade, inovação e desenvolvimento sustentável'; 
+    $pages['blog']['page'] = 'views/pages/artigos/index.php'; 
 
-        $pages['post']['title'] = ''; 
-        $pages['post']['keywords'] = 'inovação e sustentabilidade, inovação e desenvolvimento sustentável'; 
-        $pages['post']['page'] = 'views/pages/artigos/artigo.php'; 
+    $pages['post']['title'] = ''; 
+    $pages['post']['keywords'] = 'inovação e sustentabilidade, inovação e desenvolvimento sustentável'; 
+    $pages['post']['page'] = 'views/pages/artigos/artigo.php'; 
 
-        $pages['posts']['title'] = 'Consulting Brics | Publicações'; 
-        $pages['posts']['keywords'] = 'inovação e sustentabilidade, inovação e desenvolvimento sustentável'; 
-        $pages['posts']['page'] = 'views/pages/artigos/artigos.php';
+    $pages['posts']['title'] = 'Consulting Brics | Publicações'; 
+    $pages['posts']['keywords'] = 'inovação e sustentabilidade, inovação e desenvolvimento sustentável'; 
+    $pages['posts']['page'] = 'views/pages/artigos/artigos.php';
 
-        $pages['legal-info']['title'] = 'Consulting Brics | Informação legal'; 
-        $pages['legal-info']['keywords'] = ''; 
-        $pages['legal-info']['page'] = 'views/pages/legal.php';
+    $pages['legal-info']['title'] = 'Consulting Brics | Informação legal'; 
+    $pages['legal-info']['keywords'] = ''; 
+    $pages['legal-info']['page'] = 'views/pages/legal.php';
 
-    }else{
+    if(isset($_COOKIE['lang'])){
+        if($_COOKIE['lang']=='en'){
 
-        $pages['homepage']['title'] = 'Consulting Brics'; 
-        $pages['homepage']['keywords'] = 'esg, environmental social and corporate governance'; 
-        $pages['homepage']['page'] = 'views/pages/homepage.php'; 
+            $pages['homepage']['title'] = 'Consulting Brics'; 
+            $pages['homepage']['keywords'] = 'esg, environmental social and corporate governance'; 
+            $pages['homepage']['page'] = 'views/pages/homepage.php'; 
 
-        $pages['servicos']['title'] = 'Consulting Brics | Services'; 
-        $pages['servicos']['keywords'] = 'sustainable consulting firm,sustainability business consulting, innovation consulting'; 
-        $pages['servicos']['page'] = 'views/pages/servicos.php'; 
+            $pages['servicos']['title'] = 'Consulting Brics | Services'; 
+            $pages['servicos']['keywords'] = 'sustainable consulting firm,sustainability business consulting, innovation consulting'; 
+            $pages['servicos']['page'] = 'views/pages/servicos.php'; 
 
-        $pages['blog']['title'] = 'Consulting Brics | Blog'; 
-        $pages['blog']['keywords'] = 'sustainability and innovation'; 
-        $pages['blog']['page'] = 'views/pages/artigos/index.php'; 
+            $pages['blog']['title'] = 'Consulting Brics | Blog'; 
+            $pages['blog']['keywords'] = 'sustainability and innovation'; 
+            $pages['blog']['page'] = 'views/pages/artigos/index.php'; 
 
-        $pages['post']['title'] = ''; 
-        $pages['post']['keywords'] = 'sustainability and innovation'; 
-        $pages['post']['page'] = 'views/pages/artigos/artigo.php'; 
+            $pages['post']['title'] = ''; 
+            $pages['post']['keywords'] = 'sustainability and innovation'; 
+            $pages['post']['page'] = 'views/pages/artigos/artigo.php'; 
 
-        $pages['posts']['title'] = 'Consulting Brics | Posts'; 
-        $pages['posts']['keywords'] = 'sustainability and innovation'; 
-        $pages['posts']['page'] = 'views/pages/artigos/artigos.php';
+            $pages['posts']['title'] = 'Consulting Brics | Posts'; 
+            $pages['posts']['keywords'] = 'sustainability and innovation'; 
+            $pages['posts']['page'] = 'views/pages/artigos/artigos.php';
 
-        $pages['legal-info']['title'] = 'Consulting Brics | Legal information'; 
-        $pages['legal-info']['keywords'] = ''; 
-        $pages['legal-info']['page'] = 'views/pages/legal.php';
-
+            $pages['legal-info']['title'] = 'Consulting Brics | Legal information'; 
+            $pages['legal-info']['keywords'] = ''; 
+            $pages['legal-info']['page'] = 'views/pages/legal.php';
+            
+        }
     }
