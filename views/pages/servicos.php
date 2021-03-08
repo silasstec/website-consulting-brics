@@ -1,4 +1,3 @@
-<?php include_once('./analyticstracking.php'); ?>
         <div class="p-50 m-t-100" id="que-fazemos">
             <div class="container" id="estrategia">
                 <div class="row">

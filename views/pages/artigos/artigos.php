@@ -1,4 +1,3 @@
-<?php include_once('./analyticstracking.php'); ?>
 <div class="container m-b-50 ajax-scroll" style="margin-top:160px;" id="ajax-scroll">
     
     <a href="/"><h5 class="upper we-700 color-blue m-b-25 pt-14" id="voltar">VOLTAR</h5></a>
