@@ -6,6 +6,7 @@
         <meta name="keywords" content="<?php echo $keywords; ?>">
 
         <?php require_once('views/body/head.php'); ?>
+        <?php include_once('./analyticstracking.php'); ?>
 
 
         <title><?php echo $title ?? 'Consulting Brics'; ?></title>
