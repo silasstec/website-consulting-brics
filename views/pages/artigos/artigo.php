@@ -1,3 +1,4 @@
+<?php include_once('./analyticstracking.php'); ?>
 <?php if($post['thumbnail']!=""){ ?>
 <div class="container-fluid d-none d-md-none d-lg-block d-xl-block" style="padding-top:160px;padding-bottom:100px;background-image:url('<?php echo $post['thumbnail']; ?>');background-size:100% auto;height:500px;">
 </div>

@@ -1,3 +1,4 @@
+<?php include_once('./analyticstracking.php'); ?>
 <?php 
 
     $post = json_decode(file_get_contents(API.'posts/www.consultingbrics.com/1/0'), true)['data'][0];

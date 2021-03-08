@@ -1,3 +1,4 @@
+<?php include_once('./analyticstracking.php'); ?>
 <div class="container m-b-50">
     
         <h5 class="upper we-700 color-blue m-b-25 pt-14">artigos recentes 

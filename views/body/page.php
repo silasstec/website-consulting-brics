@@ -11,7 +11,6 @@
         <title><?php echo $title ?? 'Consulting Brics'; ?></title>
     </head>
     <body id="body">
-        <?php include_once('./analyticstracking.php'); ?>
 
         <?php require_once('views/body/menu.php'); ?>
 
