@@ -1,5 +1,4 @@
         <?php require_once('views/body/header.php'); ?>
-        <?php include_once('./analyticstracking.php'); ?>
         
         <div class="bg-white" style="padding-top: 100px;margin-top: -100px;">
 
