@@ -24,7 +24,7 @@ $lang['footer']['legal'] = 'INFORMAÇÃO LEGAL';
 $lang['homepage'] = [];
 
 $lang['homepage']['button'] = "CONTACTE-NOS";
-$lang['homepage']['header']['h1'] = 'Somos a ponte entre si e os seus objetivos.';
+$lang['homepage']['header']['h1'] = 'Somos a ponte para os seus objetivos.';
 $lang['homepage']['header']['button'] = 'CONTACTE-NOS';
 
 $lang['homepage']['sobre']['cargo_elenice'] = 'Fundadora & Chefe de Estratégia Internacional';
