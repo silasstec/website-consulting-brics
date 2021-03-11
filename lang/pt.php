@@ -141,6 +141,7 @@ com critérios de referência, cada vez mais importantes para investidores. Assi
 forma de transformação dos modelos de negócio, procuramos facilitar uma aproximação às
 diretrizes ESG, maximizando o potencial de investimento e consequente valorização da
 empresa.
+<br><br>
 Se, até aqui, o envolvimento com as diretrizes ESG vinha a ser considerado de crescente
 necessidade para a criação de boas práticas empresariais, é previsível que, em pouco
 tempo, esta seja uma realidade bem cimentada na forma como todos os stakeholders
@@ -158,6 +159,7 @@ $lang['servicos']['sustentabilidade'] = '<h2 class="font-philosopher pt-28 color
 conformidade com critérios ESG (Environmental, Social, and Governance) é crescente e
 notória. A isso acresce também a utilidade e conveniência de estar de acordo com os SDGs
 (Sustainable Development Goals) da ONU.
+<br><br>
 Os critérios ESG são utilizados por relevantes instituições financeiras e investidores, de
 forma a analisar a conformidade de uma empresa e avaliar se, e como, deve receber
 investimentos. Estar bem posicionado no Rating ESG era, até há pouco, uma mais-valia
@@ -166,6 +168,7 @@ constar num documento que demonstra até que ponto uma empresa está comprometid
 com diretrizes ESG. O nosso objetivo é minimizar os riscos decorrentes de faltas de gestão
 conforme o framework, assim como corrigir lacunas legais, conduzindo a uma trajetória de
 melhoria contínua.
+<br><br>
 Por fim, todas as informações são compiladas num relatório que, uma vez por ano, as
 empresas publicam. A sua pertinência e importância reside em mostrar aos stakeholders
 como é que a empresa age no comprometimento com os pilares Ambiental, Social e de
