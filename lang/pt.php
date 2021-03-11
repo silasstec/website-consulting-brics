@@ -135,23 +135,41 @@ $lang['servicos']['estrategia'] = '<h2 class="font-philosopher pt-28 color-blue 
 
 <strong class="upper we-500 color-orange pt-13">consultoria legal</strong>
 <p class="pt-13 we-400">
-    Fornecemos apoio e suporte legal, com a possibilidade de análise e melhoria dos critérios já existentes.
+    Fortemente associada à Consultoria Sustentável, os nossos serviços de Consultoria Legal
+têm sempre em vista estabelecer, ou melhorar, a forma como as empresas se relacionam
+com critérios de referência, cada vez mais importantes para investidores. Assim, e como
+forma de transformação dos modelos de negócio, procuramos facilitar uma aproximação às
+diretrizes ESG, maximizando o potencial de investimento e consequente valorização da
+empresa.
+Se, até aqui, o envolvimento com as diretrizes ESG vinha a ser considerado de crescente
+necessidade para a criação de boas práticas empresariais, é previsível que, em pouco
+tempo, esta seja uma realidade bem cimentada na forma como todos os stakeholders
+percecionam uma determinada empresa, mediante a sua conformidade e compromisso com
+métodos que vão de encontro às melhores práticas ESG.
 </p>';
 
 $lang['servicos']['sustentabilidade'] = '<h2 class="font-philosopher pt-28 color-blue we-700 m-b-50">Sustentabilidade</h2>
 
 <strong class="upper we-500 color-orange pt-13">
-    consultoria em meio ambiente
+    Consultoria Sustentável
 </strong>
 <p class="pt-13 we-400">
-    O impacto social e ambiental das empresas torna necessário que os modelos de 
-    negócio tradicionais façam uma migração que lhes permita estar em sintonia 
-    com princípios sustentáveis. 
-    <br><br>
-    Na Consulting Brics temos a paixão de acompanhar a transição desse modelos de 
-    negócio, em especial na área do agronegócio. Para nós, ser sustentável significa 
-    aumentar os lucros usando menos recursos, com maior otimização e respeito pelos 
-    diretrizes ambientais.
+    A necessidade empresarial de realizar uma migração para modelos de negócio em
+conformidade com critérios ESG (Environmental, Social, and Governance) é crescente e
+notória. A isso acresce também a utilidade e conveniência de estar de acordo com os SDGs
+(Sustainable Development Goals) da ONU.
+Os critérios ESG são utilizados por relevantes instituições financeiras e investidores, de
+forma a analisar a conformidade de uma empresa e avaliar se, e como, deve receber
+investimentos. Estar bem posicionado no Rating ESG era, até há pouco, uma mais-valia
+diferenciadora, mas em breve será a normalidade. Os resultados do Rating passam a
+constar num documento que demonstra até que ponto uma empresa está comprometida
+com diretrizes ESG. O nosso objetivo é minimizar os riscos decorrentes de faltas de gestão
+conforme o framework, assim como corrigir lacunas legais, conduzindo a uma trajetória de
+melhoria contínua.
+Por fim, todas as informações são compiladas num relatório que, uma vez por ano, as
+empresas publicam. A sua pertinência e importância reside em mostrar aos stakeholders
+como é que a empresa age no comprometimento com os pilares Ambiental, Social e de
+Governança (ESG).
 </p>
 
 <strong class="upper we-500 color-orange pt-13">
