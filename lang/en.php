@@ -136,6 +136,7 @@ with reference criteria, increasingly important for investors. So, and how
 way of transforming business models, we seek to facilitate an approximation to the
 ESG guidelines, maximizing the investment potential and consequent appreciation of the
 company.
+<br><br>
 If, so far, involvement with the ESG guidelines has come to be seen as a growing
 need for the creation of good business practices, it is foreseeable that, in a short time
 time, this is a reality that is well cemented in the way that all stakeholders
@@ -154,6 +155,7 @@ The business need to migrate to business models in
 compliance with ESG (Environmental, Social, and Governance) criteria is growing and
 notorious. Added to this is the usefulness and convenience of complying with the SDGs
 (Sustainable Development Goals) of the UN.
+<br><br>
 ESG criteria are used by relevant financial institutions and investors, in accordance with
 in order to analyze a company\'s compliance and assess whether, and how, it should receive
 investments. Being well positioned in the ESG Rating was, until recently, an asset
@@ -162,6 +164,7 @@ contained in a document that demonstrates the extent to which a company is commi
 with ESG guidelines. Our goal is to minimize the risks arising from lack of management
 according to the framework, as well as to correct legal gaps, leading to a trajectory of
 continuous improvement.
+<br><br>
 Finally, all the information is compiled into a report that, once a year, the
 companies publish. Its relevance and importance lies in showing stakeholders
 how does the company act in commitment to the Environmental, Social and Health pillars
