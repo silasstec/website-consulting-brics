@@ -130,21 +130,43 @@ reach your target audience in a more direct and personalized way, based on the e
 
 <strong class="upper we-500 color-orange pt-13">legal advice</strong>
 <p class="pt-13 we-400">
-    We provide support legal support, with the possibility of analyzing and improving existing criteria.
+   Strongly associated with Sustainable Consulting, our Legal Consulting services
+always aim to establish, or improve, the way companies relate
+with reference criteria, increasingly important for investors. So, and how
+way of transforming business models, we seek to facilitate an approximation to the
+ESG guidelines, maximizing the investment potential and consequent appreciation of the
+company.
+If, so far, involvement with the ESG guidelines has come to be seen as a growing
+need for the creation of good business practices, it is foreseeable that, in a short time
+time, this is a reality that is well cemented in the way that all stakeholders
+perceive a particular company, through its conformity and commitment to
+methods that meet ESG best practices.
 </p>';
 
 $lang['servicos']['sustentabilidade'] = '<h2 class="font-philosopher pt-28 color-blue we-700 m-b-50">Sustainability </h2>
 
 <strong class="upper we-500 color-orange pt-13">
-    environmental consulting
+    Sustainable Consulting
 </strong>
 <p class="pt-13 we-400">
 
-Companies social and environmental impact makes it necessary for traditional business models to migrate in line with sustainable principles.
+The business need to migrate to business models in
+compliance with ESG (Environmental, Social, and Governance) criteria is growing and
+notorious. Added to this is the usefulness and convenience of complying with the SDGs
+(Sustainable Development Goals) of the UN.
+ESG criteria are used by relevant financial institutions and investors, in accordance with
+in order to analyze a company\'s compliance and assess whether, and how, it should receive
+investments. Being well positioned in the ESG Rating was, until recently, an asset
+differentiating, but soon it will be normal. Rating results start to
+contained in a document that demonstrates the extent to which a company is committed
+with ESG guidelines. Our goal is to minimize the risks arising from lack of management
+according to the framework, as well as to correct legal gaps, leading to a trajectory of
+continuous improvement.
+Finally, all the information is compiled into a report that, once a year, the
+companies publish. Its relevance and importance lies in showing stakeholders
+how does the company act in commitment to the Environmental, Social and Health pillars
+Governance (ESG).
 
-    <br><br>
-   At Consulting Brics, we are passionate about following these businesses transition, especially in the agribusiness area. 
-For us, being sustainable means increase profits using fewer resources, with greater optimization and respect for environmental guidelines.
 </p>
 
 <strong class="upper we-500 color-orange pt-13">
