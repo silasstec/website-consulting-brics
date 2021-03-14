@@ -7,7 +7,7 @@
                 
                 <div>
                     <a class="nav-link" href="index.php?bmode=true">
-                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>darkmode-btn.png" style="display:block;margin-left:auto;margin-right:auto;" alt="">
+                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>darkmode-btn-sm.png" style="display:block;margin-left:auto;margin-right:auto;" alt="">
                     </a>
 
                     <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>menu_close.png" style="float: right;margin-top:-35px;margin-right: -15px;" onclick="$('#menu-modal').modal('hide')">

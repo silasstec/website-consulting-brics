@@ -986,7 +986,8 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     #que-fazemos .elipses{
         position: absolute; 
         z-index:-1;right:-50px;
-        margin-top:-180px;
+        margin-top:-200px;
+        width:200px;
     }
 
     #quem-somos{
@@ -1160,9 +1161,10 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     #que-fazemos .elipses{
         position: absolute; 
         z-index:-1;
-        right:-50px;
-        margin-top:-200px;
+        right:-70px;
+        margin-top:-220px;
         display: block;
+        width:270px;
     }
 
     .pt-13{
@@ -1226,7 +1228,7 @@ blockquote{border-left: solid 4px #8080C9;padding-left: 25px;}
     }
 
     #servicos{
-        margin-top: -110px;
+        margin-top: -111px;
     }
 
     #contato{

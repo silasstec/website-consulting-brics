@@ -6,11 +6,11 @@
                 <button class="btn btn-action m-b-25 scroll-link" href="#contato"><?php echo $lang['homepage']['button']; ?></button>
                 <div>
                 
-                    <img src="assets/images/elipses-titles.png" class="m-t-45 img-center">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 img-center">
 
                 </div>
                 <div>
-                    <img src="assets/images/down.png" class="m-t-50 mg-fluid">
+                    <img src="assets/images/<?php echo $imode; ?>down.png" class="m-t-50 mg-fluid">
                 </div>
             </div>
             
@@ -178,8 +178,8 @@
                     
 
 
-                    <img src="assets/images/elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: 0px;">
-                    <img src="assets/images/<?php echo $imode; ?>elipses_quemsomos.png" class="elipses d-none d-lg-block d-xl-block d-md-block">
+                    <img src="assets/images/<?php echo $imode; ?>elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: -2px;">
+                    <img src="assets/images/<?php echo $imode; ?>elipses_quemsomos.svg" class="elipses d-none d-lg-block d-xl-block d-md-block">
 
                 </div>
             </div>
@@ -276,7 +276,7 @@
 
             <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path <?php if(isset($_COOKIE['bmode'])){ echo 'fill="#252525"'; }else{ echo 'fill="#F2F2FA"'; } ?> fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,176C384,171,480,181,576,197.3C672,213,768,235,864,224C960,213,1056,171,1152,144C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
             
-            <div id="servicos" class="bg-blue-5">
+            <div id="servicos" class="bg-blue-5" style="margin-top">
                 
                 <div class="container" style="margin-top: -50px;">
                     <div class="row justify-content-md-center">
@@ -291,7 +291,7 @@
 
                         <div class="col-lg-4 col-md-7" data-aos="fade-up">
 
-                            <a href="servicos.html#tecnologia" style="text-decoration:none;">
+                            <a href="<?php echo URL; ?>servicos#estrategia" style="text-decoration:none;">
 
                                 <div class="servico radius-15" data-aos="fade-up">
                                     <img src="assets/images/<?php echo $imode; ?>icone-estrategia.png" class="icone">
@@ -321,7 +321,7 @@
 
                             <div class="m-b-100 no-sm no-md"><br></div>
 
-                            <a href="servicos.html#tecnologia" style="text-decoration:none;">
+                            <a href="<?php echo URL; ?>servicos#sustentabilidade" style="text-decoration:none;">
 
                                 <div class="servico radius-15">
                                     <img src="assets/images/<?php echo $imode; ?>icone-sustentabilidade.png" class="icone">
@@ -351,7 +351,7 @@
 
                             <div class="m-b-100 no-sm no-md"><br><br><br></div>
 
-                            <a href="servicos.html#tecnologia"style="text-decoration:none;">
+                            <a href="<?php echo URL; ?>servicos#tecnologia"style="text-decoration:none;">
 
                                 <div class="servico radius-15">
                                     <img src="assets/images/<?php echo $imode; ?>icone-tecnologia.png" class="icone">
@@ -460,7 +460,7 @@
 
                         <?php } ?>
 
-                        <img src="assets/images/elipses_contactos_small.png" class="elipses d-block d-md-none d-lg-none d-xl-none" style="margin-top:50px">
+                        <img src="assets/images/<?php echo $imode; ?>elipses_contactos_small.png" class="elipses d-block d-md-none d-lg-none d-xl-none" style="margin-top:50px">
                         
                     </div>
                     <a href="https://www.linkedin.com/company/consultingbrics/">
