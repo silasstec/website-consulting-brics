@@ -4,12 +4,12 @@
         
             <a href="javascript:void(0)"
             onclick="load_articles($('#articles-response').attr('prev'), 3, '#articles-response', $('#articles-response').attr('skip'));">
-                <img src="./assets/images/arrow-left.png" alt="" style="margin-left:15px;margin-right:10px">
+                <img src="./assets/images/<?php echo $imode; ?>arrow-left.svg" alt="" style="margin-left:15px;margin-right:10px">
             </a>
 
             <a href="javascript:void(0)"
             onclick="load_articles($('#articles-response').attr('next'), 3, '#articles-response', $('#articles-response').attr('skip'));">
-                <img src="./assets/images/arrow-right.png" alt="">
+                <img src="./assets/images/<?php echo $imode; ?>arrow-right.svg" alt="">
             </a>
         
         </h5>

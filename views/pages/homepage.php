@@ -6,11 +6,11 @@
                 <button class="btn btn-action m-b-25 scroll-link" href="#contato"><?php echo $lang['homepage']['button']; ?></button>
                 <div>
                 
-                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 img-center" data-aos="fade-up">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.svg" class="m-t-45 img-center" data-aos="fade-up">
 
                 </div>
                 <div>
-                    <img src="assets/images/<?php echo $imode; ?>down.png" class="m-t-50 mg-fluid"  data-aos="fade-up">
+                    <img src="assets/images/<?php echo $imode; ?>down.svg" class="m-t-50 mg-fluid"  data-aos="fade-up">
                 </div>
             </div>
             
@@ -28,7 +28,7 @@
                                     <a href="https://www.linkedin.com/in/eleniccecandido/" target="_blank">
                                         <div class="col-persona">
                                             <div class="card card-persona" data-aos="fade-right">
-                                                <img class="card-img" src="assets/images/elenice.png">
+                                                <img class="card-img" src="assets/images/elenice.svg">
                                                 <div class="card-body">
                         
                                                         <img src="assets/images/<?php echo $imode; ?>linkedin-btn.svg" align="left" class="linkedin">
@@ -36,7 +36,7 @@
                                                             Elenice Cândido da Silva<br>
                                                             <small>• <?php echo $lang['homepage']['sobre']['cargo_elenice']; ?></small>
                                                         </p>
-                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.avg" class="linkedin-sm">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.svg" class="linkedin-sm">
                                                         
                                                 </div>
                                             </div>
@@ -52,7 +52,7 @@
 
                                         <div class="col-persona">
                                             <div class="card card-persona" data-aos="fade-right">
-                                                <img class="card-img" src="assets/images/antonio.png">
+                                                <img class="card-img" src="assets/images/antonio.svg">
                                                 <div class="card-body">
                                                     
                                                         <img src="assets/images/<?php echo $imode; ?>linkedin-btn.svg" align="left" class="linkedin">
@@ -80,7 +80,7 @@
 
                             <!-- SVG -->
 
-                                <img src="assets/images/<?php echo $imode; ?>elipses-titles.png"  data-aos="fade-left" class="m-t-45 no-sm" style="position: absolute; right:0px;margin-top:-10px;">
+                                <img src="assets/images/<?php echo $imode; ?>elipses-titles.svg"  data-aos="fade-left" class="m-t-45 no-sm" style="position: absolute; right:0px;margin-top:-10px;">
 
                                 <div class="color-orange we-300 pt-13"><?php echo $lang['homepage']['sobre']['h5']; ?></div>
                                 
@@ -178,7 +178,7 @@
                     
 
 
-                    <img src="assets/images/<?php echo $imode; ?>elipses_quemsomos_small.png" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: -2px;">
+                    <img src="assets/images/<?php echo $imode; ?>elipses_quemsomos.svg" class="elipses d-block d-lg-none d-xl-none d-md-none" style="margin-top: -2px;">
                     <img src="assets/images/<?php echo $imode; ?>elipses_quemsomos.svg" class="elipses d-none d-lg-block d-xl-block d-md-block">
 
                 </div>
@@ -266,7 +266,7 @@
                         </div>
                     </div>  
 
-                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="elipses d-block d-lg-none d-xl-none img-center m-t-45 no-sm">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.svg" class="elipses d-block d-lg-none d-xl-none img-center m-t-45 no-sm">
                     
                    
 
@@ -306,7 +306,7 @@
                                             <?php echo $lang['homepage']['servicos']['item1']['descricao']; ?>
 
                                             <div class="text-right m-t-10">
-                                                <img src="assets/images/<?php echo $imode; ?>seta-para-direita.png" style="width: 30px;" alt="">
+                                                <img src="assets/images/<?php echo $imode; ?>arrow-right.svg" style="width: 30px;" alt="">
                                             </div>
                                             
                                         </div>
@@ -336,7 +336,7 @@
                                             <?php echo $lang['homepage']['servicos']['item2']['descricao']; ?>
 
                                             <div class="text-right m-t-10">
-                                                <img src="assets/images/<?php echo $imode; ?>seta-para-direita.png" style="width: 30px;" alt="">
+                                                <img src="assets/images/<?php echo $imode; ?>arrow-right.svg" style="width: 30px;" alt="">
                                             </div>
                                             
                                         </div>
@@ -366,7 +366,7 @@
                                             <?php echo $lang['homepage']['servicos']['item3']['descricao']; ?>
 
                                             <div class="text-right m-t-10">
-                                                <img src="assets/images/<?php echo $imode; ?>seta-para-direita.png" style="width: 30px;" alt="">
+                                                <img src="assets/images/<?php echo $imode; ?>arrow-right.svg" style="width: 30px;" alt="">
                                             </div>
                                             
                                         </div>
@@ -379,9 +379,9 @@
 
                     </div>
 
-                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 d-none d-lg-block d-xl-block" style="margin-top:-30px;margin-bottom:25px;margin-left:-50px;">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.svg" class="m-t-45 d-none d-lg-block d-xl-block" style="margin-top:-30px;margin-bottom:25px;margin-left:-50px;">
 
-                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 img-center d-block d-lg-none d-xl-none" style="margin-top:-30px;margin-bottom:50px;">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.svg" class="m-t-45 img-center d-block d-lg-none d-xl-none" style="margin-top:-30px;margin-bottom:50px;">
 
                 </div>
             </div>
@@ -428,7 +428,7 @@
                     </div>
 
                     <div>
-                        <img src="assets/images/elipses_contacto.png" class="elipses d-none d-md-block d-lg-none d-xs-none">
+                        <img src="assets/images/elipses_contacto.svg" class="elipses d-none d-md-block d-lg-none d-xs-none">
                         
                         <?php if(isset($_COOKIE['bmode'])){ ?>
 
@@ -460,7 +460,7 @@
 
                         <?php } ?>
 
-                        <img src="assets/images/<?php echo $imode; ?>elipses_contactos_small.png" class="elipses d-block d-md-none d-lg-none d-xl-none" style="margin-top:50px">
+                        <img src="assets/images/<?php echo $imode; ?>elipses_contactos_small.svg" class="elipses d-block d-md-none d-lg-none d-xl-none" style="margin-top:50px">
                         
                     </div>
                     <a href="https://www.linkedin.com/company/consultingbrics/">

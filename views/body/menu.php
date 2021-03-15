@@ -7,10 +7,10 @@
                 
                 <div>
                     <a class="nav-link" href="index.php?bmode=true">
-                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>darkmode-btn-sm.png" style="display:block;margin-left:auto;margin-right:auto;" alt="">
+                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>darkmode-btn-sm.svg" style="display:block;margin-left:auto;margin-right:auto;" alt="">
                     </a>
 
-                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>menu_close.png" style="float: right;margin-top:-35px;margin-right: -15px;" onclick="$('#menu-modal').modal('hide')">
+                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>menu_close.svg" style="float: right;margin-top:-35px;margin-right: -15px;" onclick="$('#menu-modal').modal('hide')">
                 </div>
 
 
@@ -76,10 +76,10 @@
         <nav class="navbar navbar-expand-lg navbar-default bg-default fixed-top" id="nav-top">
             <div class="container">    
                 <a class="navbar-brand h1 mb-0" href="<?php echo URL; ?>">
-                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>logotipo.png" alt="" id="logo" class="">
+                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>logotipo.svg" alt="" id="logo" class="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menu-modal">
-                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>menu2.png" alt="">
+                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>menu2.svg" alt="">
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="navbar-nav ml-auto">
@@ -111,7 +111,7 @@
                             <?php if($_COOKIE['lang']=='en'){ ?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo URL; ?>index.php?lang=pt">
-                                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>en.png" alt="">
+                                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>en.svg" alt="">
                                         PT
                                     </a>
                                 </li>
@@ -120,7 +120,7 @@
                             <?php if($_COOKIE['lang']=='pt'){ ?>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo URL; ?>index.php?lang=en">
-                                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>en.png" alt="">
+                                        <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>en.svg" alt="">
                                         EN
                                     </a>
                                 </li>
@@ -130,7 +130,7 @@
 
                             <li class="nav-item xx">
                                 <a class="nav-link" href="<?php echo URL; ?>index.php?lang=en">
-                                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>en.png" alt="">
+                                    <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>en.svg" alt="">
                                     EN
                                 </a>
                             </li>
@@ -139,7 +139,7 @@
 
                         <li class="nav-item xx" style="padding-left:0px;">
                             <a class="nav-link" href="<?php echo URL; ?>index.php?bmode=true">
-                                <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>darkmode-btn.png" alt="">
+                                <img src="<?php echo URL; ?>assets/images/<?php echo $imode; ?>darkmode-btn.svg" alt="">
                             </a>
                         </li>
 

@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 col-xl-2 d-none d-lg-block d-xl-block">
-                        <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 d-none d-lg-block d-xl-block" style="margin-top:600px;margin-bottom:25px;margin-left:-50px;">
+                        <img src="assets/images/<?php echo $imode; ?>elipses-titles.svg" class="m-t-45 d-none d-lg-block d-xl-block" style="margin-top:600px;margin-bottom:25px;margin-left:-50px;">
                     </div>
                     <div class="col-12 col-lg-10 col-xl-10">
 

@@ -32,7 +32,7 @@
                 </div>
             </div>
             
-            <img src="assets/images/full_video.png" class="full-video" onclick="toggleFullScreen();">
+            <img src="assets/images/full_video.svg" class="full-video" onclick="toggleFullScreen();">
 
             <span class="hero__scroll aos-init aos-animate no-sm" data-aos-easing="ease" data-aos-delay="800">
 				<i class="chevron bottom" style="color: #FFF;"></i>
