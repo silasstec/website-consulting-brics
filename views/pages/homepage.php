@@ -6,11 +6,11 @@
                 <button class="btn btn-action m-b-25 scroll-link" href="#contato"><?php echo $lang['homepage']['button']; ?></button>
                 <div>
                 
-                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 img-center">
+                    <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 img-center" data-aos="fade-up">
 
                 </div>
                 <div>
-                    <img src="assets/images/<?php echo $imode; ?>down.png" class="m-t-50 mg-fluid">
+                    <img src="assets/images/<?php echo $imode; ?>down.png" class="m-t-50 mg-fluid"  data-aos="fade-up">
                 </div>
             </div>
             
@@ -80,7 +80,7 @@
 
                             <!-- SVG -->
 
-                                <img src="assets/images/<?php echo $imode; ?>elipses-titles.png" class="m-t-45 no-sm" style="position: absolute; right:0px;margin-top:-10px;">
+                                <img src="assets/images/<?php echo $imode; ?>elipses-titles.png"  data-aos="fade-left" class="m-t-45 no-sm" style="position: absolute; right:0px;margin-top:-10px;">
 
                                 <div class="color-orange we-300 pt-13"><?php echo $lang['homepage']['sobre']['h5']; ?></div>
                                 
