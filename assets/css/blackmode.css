@@ -148,11 +148,9 @@ body{
 
 #timeline .p-l{
     border-left: solid 1px #7A7AD1;
-    border-right: solid 1px #7A7AD1;
 }
 #timeline .p-r{
     border-right: solid 1px #7A7AD1;
-    border-left: solid 1px #7A7AD1;
 }
 
 #timeline .circle-l{
@@ -166,4 +164,16 @@ body{
 .btn-action:hover{
     background-color: #7A7AD1 !important;
     color: #FFF;
+}
+
+@media (max-width: 768px) {
+        
+    #timeline .p-l{
+        border-left: solid 1px #7A7AD1;
+        border-right: solid 1px #7A7AD1;
+    }
+    #timeline .p-r{
+        border-right: solid 1px #7A7AD1;
+        border-left: solid 1px #7A7AD1;
+    }
 }

@@ -31,12 +31,12 @@
                                                 <img class="card-img" src="assets/images/elenice.png">
                                                 <div class="card-body">
                         
-                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn.png" align="left" class="linkedin">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn.svg" align="left" class="linkedin">
                                                         <p class="name md-center">    
                                                             Elenice Cândido da Silva<br>
                                                             <small>• <?php echo $lang['homepage']['sobre']['cargo_elenice']; ?></small>
                                                         </p>
-                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.png" class="linkedin-sm">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.avg" class="linkedin-sm">
                                                         
                                                 </div>
                                             </div>
@@ -55,12 +55,12 @@
                                                 <img class="card-img" src="assets/images/antonio.png">
                                                 <div class="card-body">
                                                     
-                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn.png" align="left" class="linkedin">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn.svg" align="left" class="linkedin">
                                                         <p class="name md-center">    
                                                             Antonio Insana<br>
                                                             <small>• <?php echo $lang['homepage']['sobre']['cargo_antonio']; ?></small>
                                                         </p>
-                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.png" class="linkedin-sm">
+                                                        <img src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.svg" class="linkedin-sm">
             
                                                 </div>
                                             </div>
@@ -294,7 +294,7 @@
                             <a href="<?php echo URL; ?>servicos#estrategia" style="text-decoration:none;">
 
                                 <div class="servico radius-15" data-aos="fade-up">
-                                    <img src="assets/images/<?php echo $imode; ?>icone-estrategia.png" class="icone">
+                                    <img src="assets/images/<?php echo $imode; ?>icone-estrategia.svg" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
 
@@ -324,7 +324,7 @@
                             <a href="<?php echo URL; ?>servicos#sustentabilidade" style="text-decoration:none;">
 
                                 <div class="servico radius-15">
-                                    <img src="assets/images/<?php echo $imode; ?>icone-sustentabilidade.png" class="icone">
+                                    <img src="assets/images/<?php echo $imode; ?>icone-sustentabilidade.svg" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
 
@@ -354,7 +354,7 @@
                             <a href="<?php echo URL; ?>servicos#tecnologia"style="text-decoration:none;">
 
                                 <div class="servico radius-15">
-                                    <img src="assets/images/<?php echo $imode; ?>icone-tecnologia.png" class="icone">
+                                    <img src="assets/images/<?php echo $imode; ?>icone-tecnologia.svg" class="icone">
                                     <div class="conteudo">
                                         <div class="titulo upper color-blue we-500 pt-13 m-b-25 m-t-50 text-center">
 
@@ -410,12 +410,12 @@
                                 <div style="padding-left: 40px;">
 
                                     <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/<?php echo $imode; ?>email.png" class="icone">
+                                        <img src="assets/images/<?php echo $imode; ?>email.svg" class="icone">
                                         <a href="mailto:contactus@consultingbrics.com" class="color-black">contactus@consultingbrics.com</a> 
                                     </p>
 
                                     <p class="pt-13 we-400 line-h-24">
-                                        <img src="assets/images/<?php echo $imode; ?>location.png" class="icone" style="margin-top: -3px;">
+                                        <img src="assets/images/<?php echo $imode; ?>location.svg" class="icone" style="margin-top: -3px;">
                                         Rua Reinaldo Schaffenberg de Quadros, 308<br>
                                         Sala 4, Alto da XV - 80045 -070<br>
                                         Curitiba (PR)<br>
@@ -465,7 +465,7 @@
                     </div>
                     <a href="https://www.linkedin.com/company/consultingbrics/">
                             <div style="height: 150px;padding-top:50px;">
-                                <img class="col-persona" src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.png" id="footer-linkedin">
+                                <img class="col-persona" src="assets/images/<?php echo $imode; ?>linkedin-btn-sm.svg" id="footer-linkedin">
                             </div>                            
                         </a>
                     
