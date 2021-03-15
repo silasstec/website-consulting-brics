@@ -4,7 +4,7 @@ function load_articles(page, limit, element_callback, skip, type){
 
 
 
-    $('#articles-response').attr('skip', skip);
+    $('#articles-response'+skip).attr('skip', skip);
 
     if(page==1){
         var api = API+"posts/www.consultingbrics.com/"+limit+'/'+skip;
@@ -80,7 +80,7 @@ function load_articles_infinite(page, limit, element_callback, skip, type){
 
     
 
-    $('#articles-response').attr('skip', skip);
+    $('#articles-response'+skip).attr('skip', skip);
 
     if(page==1){
         var api = API+"posts/www.consultingbrics.com/"+limit+'/'+skip;

@@ -1,14 +1,19 @@
+<?php 
+
+    $id = $post['id']??0;
+
+?>
 <div class="container m-b-50">
     
         <h5 class="upper we-700 color-blue m-b-25 pt-14">artigos recentes 
         
             <a href="javascript:void(0)"
-            onclick="load_articles($('#articles-response').attr('prev'), 3, '#articles-response', $('#articles-response').attr('skip'));">
+            onclick="load_articles($('#articles-response-<?php echo $id; ?>').attr('prev'), 3, '#articles-response-<?php echo $id; ?>', $('#articles-response-<?php echo $id; ?>').attr('skip'));">
                 <img src="./assets/images/<?php echo $imode; ?>arrow-left.svg" alt="" style="margin-left:15px;margin-right:10px">
             </a>
 
             <a href="javascript:void(0)"
-            onclick="load_articles($('#articles-response').attr('next'), 3, '#articles-response', $('#articles-response').attr('skip'));">
+            onclick="load_articles($('#articles-response-<?php echo $id; ?>').attr('next'), 3, '#articles-response-<?php echo $id; ?>', $('#articles-response-<?php echo $id; ?>').attr('skip'));">
                 <img src="./assets/images/<?php echo $imode; ?>arrow-right.svg" alt="">
             </a>
         
@@ -16,7 +21,7 @@
 
         <div class="articles-responsives-scroll" style="min-height:350px">
             <div class="articles-responsives">
-                <div class="rows text-sm-center" id="articles-response" page="" prev="1" next="1" skip="">
+                <div class="rows text-sm-center" id="articles-response-<?php echo $id; ?>" page="" prev="1" next="1" skip="">
                     
                 </div>
             </div>
@@ -33,6 +38,6 @@
 
 <script src="<?php echo URL; ?>assets/js/articles.js?1"></script>
 <script>
-    load_articles(1, 3, '#articles-response', <?php echo $post['id']??0; ?>, true);
+    load_articles(1, 3, '#articles-response-<?php echo $id; ?>', <?php echo $post['id']??0; ?>, true);
 </script>
 
