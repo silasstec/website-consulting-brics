@@ -237,3 +237,51 @@ Novo Modelo de Negócio devido às exigências do Mercado em Expansão</p>';
 $lang['homepage']['timeline']['2020'] = '<p><strong>Rebranding da Consulting Brics</strong><br>
 Depois de uma atenta análise do mercado e de uma cuidadosa operação de 
 identidade visual, voltamos ao mercado com uma série de novos serviços de alta performance</p>';
+
+
+$lang['homepage']['timeline']['2014_title'] = "
+<p>
+    <strong>EVENTOS</strong><br>
+    - Salinas Summer Show, em LongIsland, para 140 convidados – Frankfurt, 2014<br>
+    - Showroom CB, para 90 convidados – São Paulo, 2014<br>
+    - Never Ending Summer, para 160 convidados – Frankfurt, 2014<br><br>
+
+    <strong>FEIRAS</strong><br>
+    - Supreme – Munique, 2014<br>
+    - Wäshe und mehr – Dortmund, 2014<br>
+    - Dessous Messe – Wallau, 2014
+</p>
+";
+
+$lang['homepage']['timeline']['2015_title'] = "
+<p>
+    <strong>EVENTOS</strong><br>
+    - Sport Magazine Bikini Gala, para 1.200 pessoas – Vienna, 2015<br><br>
+
+    <strong>FEIRAS</strong><br>
+    - Supreme – Munique, 2015<br><br>
+
+    <strong>ASSESSORIA COMERCIAL NA AMÉRICA LATINA</strong><br>
+    - Lauren Moshi<br>
+    - Schöniglich<br>
+    - Casa di Stella<br>
+    - Konplott<br>
+</p>
+";
+
+$lang['homepage']['timeline']['2016_title'] = "
+<p>
+    <strong>ACONSELHAMENTO DE NEGÓCIOS NA EUROPA</strong><br>
+    - Morena Rosa<br>
+    - Kiminis<br>
+    - Limonada<br>
+    - Dama de Seda<br>
+    - 2 Rios<br><br>
+
+    <strong>MEDIA</strong><br>
+    - Todateen: com Schöniglich e Lauren Moshi<br>
+    - Vogue Brasil Online: banner de divulgação da empresa<br>
+    - Revista Dessous Messe<br>
+    - Portal G1
+</p>
+";

@@ -214,26 +214,71 @@ and tailor-made projects based on the most innovative IT.
 
 /** END Services **/
 
-$lang['homepage']['timeline']['2014'] = '<p><strong>Fundação da Empresa</strong><br>
-Importações e Exportações<br>
-Eventos<br>
-Feiras</p>';
+$lang['homepage']['timeline']['2014'] = '<p><strong>Company Foundation</strong><br>
+Importations and Exportations<br>
+Events<br>
+Fairs</p>';
 
-$lang['homepage']['timeline']['2015'] = '<p>Eventos<br>
-Feiras<br>
-Assessoria Comercial na America Latina</p>';
+$lang['homepage']['timeline']['2015'] = '<p>Events<br>
+Fairs<br>
+Commercial Advisory in Latin America</p>';
 
-$lang['homepage']['timeline']['2016'] = '<p>Aconselhamento de Negócios na Europa Media</p>';
+$lang['homepage']['timeline']['2016'] = '<p>Business Advice in Europe Media</p>';
 
-$lang['homepage']['timeline']['2017'] = '<p><strong>Abertura de Plataforma</strong><br>
-Consultoria em Visual Merchandising Sustentável<br>
-Marketing Digital no Mercado Europeu</p>';
+$lang['homepage']['timeline']['2017'] = '<p><strong>Platform Opening</strong><br>
+Consulting in Sustainable Visual Merchandising<br>
+Digital Marketing in the European Market</p>';
 
-$lang['homepage']['timeline']['2018'] = '<p><strong>Consolidação do Mercado Europeu e Expansão do Modelo de Negócio</strong></p>';
+$lang['homepage']['timeline']['2018'] = '<p><strong>Consolidation of the European Market and Expansion of the Business Model</strong></p>';
 
-$lang['homepage']['timeline']['2019'] = '<p><strong>Adaptação e Planeamento</strong><br>
-Novo Modelo de Negócio devido às exigências do Mercado em Expansão</p>';
+$lang['homepage']['timeline']['2019'] = '<p><strong>Adaptation and Planning</strong><br>
+New Business Model due to the requirements of the Expanding Market</p>';
 
-$lang['homepage']['timeline']['2020'] = '<p><strong>Rebranding da Consulting Brics</strong><br>
-Depois de uma atenta análise do mercado e de uma cuidadosa operação de 
-identidade visual, voltamos ao mercado com uma série de novos serviços de alta performance</p>';
+$lang['homepage']['timeline']['2020'] = '<p><strong>Consulting Brics Rebranding</strong><br>
+After a careful analysis of the market and an in-depth visual identity operation, we return to the market with a series of new high performance services</p>';
+
+
+$lang['homepage']['timeline']['2014_title'] = "<p>
+    <strong>EVENTS</strong><br>
+    - Salinas Summer Show, em LongIsland, for 140 guests – Frankfurt, 2014<br>
+    - Showroom CB, for 90 guests – São Paulo, 2014<br>
+    - Never Ending Summer, for 160 guests – Frankfurt, 2014<br><br>
+
+    <strong>FAIRS</strong><br>
+    - Supreme – Munique, 2014<br>
+    - Wäshe und mehr – Dortmund, 2014<br>
+    - Dessous Messe – Wallau, 2014<br>
+</p>";
+
+$lang['homepage']['timeline']['2015_title'] = "
+<p>
+    <strong>EVENTS</strong><br>
+    - Sport Magazine Bikini Gala, for 1200 guests – Vienna, 2015<br><br>
+
+    <strong>FAIRS</strong><br>
+    - Supreme – Munique, 2015<br><br>
+
+    <strong>COMMERCIAL ADVISORY IN LATIN AMERICA</strong><br>
+    - Lauren Moshi<br>
+    - Schöniglich<br>
+    - Casa di Stella<br>
+    - Konplott<br>
+</p>
+";
+
+$lang['homepage']['timeline']['2016_title'] = "
+<p>
+    <strong>BUSINESS ADVISORY IN EUROPE</strong><br>
+    - Morena Rosa<br>
+    - Kiminis<br>
+    - Limonada<br>
+    - Dama de Seda<br>
+    - 2 Rios<br><br>
+
+    <strong>MEDIA</strong><br>
+    - Todateen: with Schöniglich and Lauren Moshi<br>
+    - Vogue Brasil Online: company promotion banner<br>
+    - Dessous Messe Magazine<br>
+    - Portal G1<br>
+</p>
+";
